@@ -1,0 +1,27 @@
+.header{
+	width: 100%;
+	height: 300px;
+}
+.logo_so{
+	width: 900px;
+	height: 200px;
+	float: left;
+	margin-top: -15px;
+}
+
+#icon_container{
+	display: flex;
+	font-size: 40px;
+	margin-top: 20px;
+	float: right;
+
+}
+
+.social_icons{
+	margin-right:20px; 
+}
+
+.navButtons{
+	display: inline-flex;
+	clear: all;
+}
