@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
-import Logo from 'assets/images/shaunlogo.jpg'
+import Logo from 'assets/images/shaunlogo.png'
 import 'font-awesome/css/font-awesome.css'
 import 'assets/styles/layout.css'
 //import Drawer from 'components/Drawer'
@@ -19,12 +19,10 @@ export default React.createClass({
           </div>
          </div>
          <div className="navButtons">
-            <ul>
-              <li>Home</li>
-              <li>The DJ</li>
-              <li>The Chef</li>
-              <li>Blog</li>
-            </ul>
+              <div className="nav">Home</div>
+              <div className="nav">The DJ</div>
+              <div className="nav">The Chef</div>
+              <div className="nav">Blog</div>
           </div>
           {this.props.children}
         </main>
