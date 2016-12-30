@@ -1,3 +1,6 @@
+body{
+	background-color: #898989;
+}
 .header{
 	width: 100%;
 	height: 135px;
@@ -20,9 +23,11 @@
 
 .social_icons{
 	margin-right:20px;
-	color: #626262; 
+	color: #1d1d1d; 
 }
-
+.social_icons:hover{
+	color: #626262;
+}
 .navButtons{
 	display: inline-flex;
 	width: 100%;
