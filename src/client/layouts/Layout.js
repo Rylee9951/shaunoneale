@@ -13,9 +13,15 @@ export default React.createClass({
          <div className="header">
           <div><img className="logo_so" src={Logo}/></div>
           <div id="icon_container">
-            <div className="social_icons"><i className="fa fa-twitter-square" aria-hidden="true"></i></div>
-            <div className="social_icons"><i className="fa fa-facebook-square" aria-hidden="true"></i></div>
-            <div className="social_icons"><i className="fa fa-instagram" aria-hidden="true"></i></div>
+            <a href="https://twitter.com/djshaunoneale?lang=en">
+              <div className="social_icons"><i className="fa fa-twitter-square" aria-hidden="true"></i></div>
+            </a>
+            <a href="https://www.facebook.com/shaunoneale">
+              <div className="social_icons"><i className="fa fa-facebook-square" aria-hidden="true"></i></div>
+            </a>
+            <a href="https://www.instagram.com/djshaunoneale/?hl=en">
+              <div className="social_icons"><i className="fa fa-instagram" aria-hidden="true"></i></div>
+            </a>
           </div>
          </div>
          <div className="navButtons">
