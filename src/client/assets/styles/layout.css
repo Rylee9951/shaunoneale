@@ -1,46 +1,53 @@
 body{
-	background-color: #898989;
+	min-width: 1600px;
+	max-width: 1600px;
+	margin:auto;
 }
 .header{
 	width: 100%;
-	height: 135px;
-	background-color: #3b3b3b;
+    height: 100px;
+    border: 1px solid #3b3b3b;
+   
 }
 .logo_so{
-	width: 800px;
-	height: 150px;
-	float: left;
-	margin-top: -15px;
+	width: 400px;
+    height: 100px;
+    float: left;
 }
 
 #icon_container{
 	display: flex;
-	font-size: 40px;
-	margin-top: 50px;
-	float: right;
+    font-size: 40px;
+    margin-top: 25px;
+    float: right;
 
 }
 
 .social_icons{
 	margin-right:20px;
 	color: #1d1d1d; 
+	cursor: pointer;
 }
 .social_icons:hover{
 	color: #626262;
 }
 .navButtons{
 	display: inline-flex;
-	width: 100%;
-	font-size: 25px;
-	height: 35px;
-	background-color:#3b3b3b; 
-	font-family: Arial, sans-serif;	
+    width: 600px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    margin: 0 0 0 100px;
+    text-transform: uppercase;
 }
 .nav{
 	margin: auto;
 	font-family: Arial, sans-serif;	
-	padding: 0 10px;
+	padding: 0 30px;
+	height: 100px;
+	line-height: 100px;
+	cursor: pointer;
 }
 .nav:hover{
-	color: #626262;
+	background-color: #757575;
+	height: 100px;
 }

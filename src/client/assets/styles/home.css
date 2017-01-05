@@ -1,18 +1,33 @@
 .bio{
-	float: left;
-	width: 500px;
-	border: 3px solid #b0b0b0;
-	margin: 20px 0 0 10px;
-	border-radius: 5px;
-	box-shadow: 10px 5px 5px #757575;
-	background-color: #c4c4c4;
+	width: 1000px;
+	text-align: justify;
+	margin: auto;
 }
 .about{
-	padding: 5px;
-	margin-bottom: -20px;
-	text-align: center;
+	font-family: 'BT Futura W01', Arial, sans-serif;
+    color: #101010;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 200;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-bottom: 10px;
 }
 .para{
-	padding: 10px;
-	font-family: Arial, sans-serif;
+	padding: 5px;
+	font-family: 'BT Futura W01', Arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: 100;
+	letter-spacing: 0.2px;
+	color: #101010;
+	padding-top: 0;
+}
+.homePhoto{
+	width: 1602px;
+	height: 650px;
+	background-size:cover; 
+  	background-position:center center; 
+  	background-repeat:no-repeat; 
 }

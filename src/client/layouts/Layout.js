@@ -12,6 +12,13 @@ export default React.createClass({
         <main> 
          <div className="header">
           <div><img className="logo_so" src={Logo}/></div>
+          <div className="navButtons">
+              <div className="nav">Home</div>
+              <div className="nav">The DJ</div>
+              <div className="nav">The Chef</div>
+              <div className="nav">Blog</div>
+          </div>
+
           <div id="icon_container">
             <a href="https://twitter.com/djshaunoneale?lang=en">
               <div className="social_icons"><i className="fa fa-twitter-square" aria-hidden="true"></i></div>
@@ -24,15 +31,17 @@ export default React.createClass({
             </a>
           </div>
          </div>
-         <div className="navButtons">
-              <div className="nav">Home</div>
-              <div className="nav">The DJ</div>
-              <div className="nav">The Chef</div>
-              <div className="nav">Blog</div>
-          </div>
+         
           {this.props.children}
         </main>
       </div>
     )
   }
 })
+
+// <div className="navButtons">
+//               <div className="nav">Home</div>
+//               <div className="nav">The DJ</div>
+//               <div className="nav">The Chef</div>
+//               <div className="nav">Blog</div>
+//           </div>
