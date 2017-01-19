@@ -24,10 +24,61 @@
 	color: #101010;
 	padding-top: 0;
 }
-.homePhoto{
+.image9{
 	width: 1602px;
-	height: 650px;
-	background-size:cover; 
-  	background-position:center center; 
-  	background-repeat:no-repeat; 
+    height: 700px;
+    background-position: 0px -30px;
+    background-image: url("../images/image9.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
 }
+.upcomingContainer{
+	width: 1000px;
+	margin: auto;
+}
+.cruise{
+	width: 400px;
+    height: 400px;
+    float: left;
+}
+.cookBook{
+	width: 396px;
+    height: 396px;
+    float: right;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #F6E5C5;
+}
+.cruisePhoto{
+	width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+.bookPhoto{
+	width: 275px;
+	height: 275px;
+}
+.pre{
+	font-size: 25px;
+    margin: 10px 0 0 0px;
+    font-family: 'BT Futura W01', Arial, sans-serif;
+}
+.title{
+	font-size: 20px;
+    margin: 5px 0 0 0;
+    font-family: 'BT Futura W01', Arial, sans-serif;
+}
+.date{
+	font-size: 15px;
+    margin: 5px;
+    text-decoration: underline;
+    font-family: 'BT Futura W01', Arial, sans-serif;
+}
+
+
+
+
+
+
+
