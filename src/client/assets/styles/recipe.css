@@ -1,0 +1,32 @@
+#recipeContainer{
+	width: 1600px;
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+.recipe{
+	width: 400px;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: auto;
+    margin-top: 30px; 
+}
+.recipe:hover .recipeCoverphotos{
+	opacity: 0.3;
+	transition: 0.5s;
+}
+.recipeGroup{
+	opacity: 0;
+	margin-top: -65px;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'BT Futura W01', Arial, sans-serif;
+}
+.recipeCoverphotos{
+	width: 400px;
+	height: 300px;
+}
+.recipe:hover .recipeGroup{
+	opacity: 1;
+	color: black;
+	transition: 0.5s;
+}
