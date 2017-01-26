@@ -45,6 +45,19 @@ export default React.createClass({
           </div>
          </div>
           {this.props.children}
+          <div className="footer">
+            <div id="icon_container_bottom">
+            <a href="https://twitter.com/djshaunoneale?lang=en">
+              <div className="social_icons_bottom"><i className="fa fa-twitter-square" aria-hidden="true"></i></div>
+            </a>
+            <a href="https://www.facebook.com/shaunoneale">
+              <div className="social_icons_bottom"><i className="fa fa-facebook-square" aria-hidden="true"></i></div>
+            </a>
+            <a href="https://www.instagram.com/djshaunoneale/?hl=en">
+              <div className="social_icons_bottom"><i className="fa fa-instagram" aria-hidden="true"></i></div>
+            </a>
+          </div>
+          </div>
         </main>
       </div>
     )

@@ -1,5 +1,6 @@
 #recipeContainer{
 	width: 1600px;
+	height: 800px;
 	display: inline-flex;
 	flex-wrap: wrap;
 }
@@ -24,6 +25,7 @@
 .recipeCoverphotos{
 	width: 400px;
 	height: 300px;
+	box-shadow: 10px 5px 5px #ccc;
 }
 .recipe:hover .recipeGroup{
 	opacity: 1;
