@@ -12,7 +12,12 @@ import TheChef from 'components/Thechef'
 import Blog from 'components/Blog'
 import Recipes from 'components/Recipes'
 import ShaunStore from 'components/ShaunStore'
-
+import Cocktails from 'components/Cocktail'
+import Family from 'components/Family'
+import Classy from 'components/Classy'
+import Snacks from 'components/Snacks'
+import Dessert from 'components/Dessert'
+import Sides from 'components/Sides'
 ReactDOM.render((
   <Router history={browserHistory}>
     <Route component={Layout}>
@@ -21,6 +26,12 @@ ReactDOM.render((
       <Route path="/thechef" component={TheChef}/>
       <Route path="/blog" component={Blog}/>
       <Route path="/recipes" component={Recipes}/>
+      <Route path="/cocktails" component={Cocktails}/>
+      <Route path="/family" component={Family}/>
+      <Route path="/classy" component={Classy}/>
+      <Route path="/dessert" component={Dessert}/>
+      <Route path="/sides" component={Sides}/>
+      <Route path="/snacks" component={Snacks}/>
       <Route path="/store" component={ShaunStore}/>
     </Route>
   </Router>

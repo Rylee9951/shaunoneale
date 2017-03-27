@@ -6,7 +6,8 @@
   "scripts": {
     "start": "gulp",
     "lint": "standard",
-    "lint:fix": "standard --fix"
+    "lint:fix": "standard --fix",
+    "deploy": "scp -r dist/* l0449946@djshaunoneale.com:/var/chroot/home/content/14/13754514/html/"
   },
   "devDependencies": {
     "babel-core": "^6.7.6",

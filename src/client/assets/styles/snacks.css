@@ -1,0 +1,100 @@
+#snacksContainer{
+
+}
+.snacksRecipeContainer{
+	width: 1400px;
+	height: 723px;
+	margin: auto;
+	margin-top: 20px;
+}
+.snacksRecipeContainer2{
+	width: 1400px;
+	height: 919px;
+	margin: auto;
+	margin-top: 40px;
+}
+.snacksPhoto{
+	width: 400px;
+	height: 325px;
+	float: left;
+}
+.snacksImage{
+	width: 400px;
+	height: 325px;
+	float: left;
+	border-radius: 8px;
+}
+.serveAmount{
+	font-size: 20px;
+    float: right;
+    width: 995px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.snacksSummary{
+	width: 1000px;
+	float: right;
+	text-align: justify;
+}
+.snacksTitle{
+	font-size: 20px;
+    margin: 5px 0 0 5px;
+}
+.snacksRecipeSummary{
+	font-size: 15px;
+	margin: 5px 0 0 5px;
+}
+
+.snacksIngredients{
+	width: 1000px;
+	height: 200px;
+    display: inline-flex;
+    margin-top: -5px;
+}
+.snacksIngredients2{
+	width: 1000px;
+	height: 395px;
+    display: inline-flex;
+    margin-top: -5px;
+}
+.snacksIngredient{
+	width: 200px;
+	margin-left: 10px;
+}
+.snacksIngredientTitle{
+	font-size: 17px;
+    margin: 5px;
+    text-decoration: underline;
+}
+.snacksEachIngredient{
+	font-size: 15px;
+	margin: 5px;
+}
+.ovenTemp{
+	margin: 5px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.snacksDirections{
+	width: 1000px;
+	margin: auto;
+	border-bottom: 1px solid #ccc;
+}
+.snacksDirection{
+	text-align: justify;
+}
+.snacksDirectionTitle{
+	font-size: 20px;
+	margin: 5px;
+}
+.snacksDirectionSummary{
+	font-size: 15px;
+	margin: 5px;
+}
+.snacksDirectionSummary2{
+	font-size: 15px;
+	margin: 5px;
+	font-weight: bold;
+}

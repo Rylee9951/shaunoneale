@@ -1,0 +1,107 @@
+#classyContainer{
+
+}
+.classyRecipeContainer{
+	width: 1400px;
+	height: 1085px;
+	margin: auto;
+	margin-top: 20px;
+}
+.classyRecipeContainer2{
+	width: 1400px;
+	height: 868px;
+	margin: auto;
+	margin-top: 40px;
+}
+.classyRecipeContainer3{
+	width: 1400px;
+	height: 1274px;
+	margin: auto;
+	margin-top: 40px;
+}
+.classyPhoto{
+	width: 400px;
+	height: 325px;
+	float: left;
+}
+.classyImage{
+	width: 400px;
+	height: 325px;
+	float: left;
+	border-radius: 8px;
+}
+.serveAmount{
+	font-size: 20px;
+    float: right;
+    width: 995px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.classySummary{
+	width: 1000px;
+	float: right;
+	text-align: justify;
+}
+.classyTitle{
+	font-size: 20px;
+    margin: 5px 0 0 5px;
+}
+.classyRecipeSummary{
+	font-size: 15px;
+	margin: 5px 0 0 5px;
+}
+
+.classyIngredients{
+	width: 1000px;
+	height: 415px;
+    display: inline-flex;
+    margin-top: -5px;
+}
+.classyIngredients2{
+	width: 1000px;
+	height: 380px;
+    display: inline-flex;
+    margin-top: -5px;
+}
+.classyIngredients3{
+	width: 1000px;
+	height: 330px;
+    display: inline-flex;
+    margin-top: -5px;
+}
+.classyIngredient{
+	width: 200px;
+	margin-left: 10px;
+}
+.classyIngredientTitle{
+	font-size: 17px;
+    margin: 5px;
+    text-decoration: underline;
+}
+.classyEachIngredient{
+	font-size: 15px;
+	margin: 5px;
+}
+.ovenTemp{
+	margin: 5px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.classyDirections{
+	width: 1000px;
+	margin: auto;
+	border-bottom: 1px solid #ccc;
+}
+.classyDirection{
+	text-align: justify;
+}
+.classyDirectionTitle{
+	font-size: 20px;
+	margin: 5px;
+}
+.classyDirectionSummary{
+	font-size: 15px;
+	margin: 5px;
+}

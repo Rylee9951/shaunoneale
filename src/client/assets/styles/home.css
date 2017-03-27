@@ -25,7 +25,7 @@
 	padding-top: 0;
 }
 .image9{
-	width: 1600px;
+	width: 100%;
     height: 700px;
     background-position: 0px -30px;
     background-image: url("../images/image9.png");
@@ -35,7 +35,7 @@
 .upcomingContainer{
 	width: 1000px;
 	margin: auto;
-	height: 500px;
+	height: 430px;
 }
 .cruise{
 	width: 400px;
@@ -49,7 +49,7 @@
     border: 2px solid #ccc;
     border-radius: 20px;
     text-align: center;
-    background-color: #F6E5C5;
+    background-color: #FEE2BE;
 }
 .cruisePhoto{
 	width: 400px;
@@ -57,7 +57,7 @@
     border-radius: 20px;
 }
 .bookPhoto{
-	width: 275px;
+	width: 220px;
 	height: 275px;
 }
 .pre{
@@ -76,9 +76,21 @@
     text-decoration: underline;
     font-family: 'BT Futura W01', Arial, sans-serif;
 }
-
-
-
+.eatWithContainer{
+    width: 1000px;
+    margin: auto;
+}
+.eatWithImage{
+    width: 1000px;
+}
+.scheduleContainer{
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+.scheduleImage{
+    width: 1000px;
+}
 
 
 

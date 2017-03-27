@@ -1,0 +1,72 @@
+#cocktailContainer{
+
+}
+.cocktailRecipeContainer{
+	width: 1200px;
+	height: 400px;
+	margin: auto;
+	margin-top: 20px;
+}
+.cocktailPhoto{
+	width: 300px;
+	height: 400px;
+	float: left;
+}
+.cocktailImage{
+	width: 300px;
+	height: 400px;
+	float: left;
+	border-radius: 8px;
+}
+.summary{
+	width: 900px;
+	float: right;
+	text-align: justify;
+}
+.coctailTitle{
+	font-size: 20px;
+    margin: 5px 0 0 5px;
+}
+.cocktailSummary{
+	font-size: 15px;
+	margin: 5px 0 0 5px;
+}
+.ingredients{
+	width: 900px;
+    display: inline-flex;
+    margin-top: -5px;
+}
+.drinkAmount{
+	font-size: 20px;
+    float: right;
+    width: 895px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.ingredient{
+	width: 180px;
+	margin-left: 10px;
+}
+.ingredientTitle{
+	font-size: 17px;
+    margin: 5px;
+    text-decoration: underline;
+}
+.eachIngredient{
+	font-size: 15px;
+	margin: 5px;
+}
+.directions{
+	width: 900px;
+	float: right;
+	text-align: justify;
+}
+.directionsTitle{
+	font-size: 20px;
+	margin: 5px;
+}
+.directionsSummary{
+	font-size: 15px;
+	margin: 5px;
+}
