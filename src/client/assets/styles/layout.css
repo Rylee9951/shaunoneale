@@ -2,8 +2,8 @@ body{
 	background-color: #EAEAEA;
 }
 .app{
-	min-width: 1600px;
-	max-width: 1600px;
+	min-width: 1400px;
+	max-width: 1400px;
 	margin:auto;
 	background-color: white;
 }

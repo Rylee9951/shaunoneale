@@ -16,12 +16,6 @@ export default React.createClass({
             <Link to="/">
               <div className="nav">Home</div>
             </Link>
-            <Link to="/thedj">
-              <div className="nav">The DJ</div>
-            </Link>
-            <Link to="/thechef">
-              <div className="nav">The Chef</div>
-            </Link>
             <Link to="/blog">
               <div className="nav">Blog</div>
             </Link>
@@ -30,6 +24,9 @@ export default React.createClass({
             </Link>
             <Link to="/store">
               <div className="nav">Store</div>
+            </Link>
+            <Link to="/contact">
+              <div className="nav">Contact</div>
             </Link>
           </div>
           <div id="icon_container">

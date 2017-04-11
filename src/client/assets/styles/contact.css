@@ -1,0 +1,18 @@
+.contactContainer{
+	width: 1400px;
+}
+.contact{
+	margin: auto;
+	width: 500px;
+	text-align: center;
+}
+.contactHeader{
+
+}
+.link{
+	text-decoration: underline;
+	font-style: italic;
+}
+.link:hover{
+	color: blue;
+}

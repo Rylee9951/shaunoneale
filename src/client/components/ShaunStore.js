@@ -25,15 +25,27 @@ export default React.createClass({
             <img className="bookPhoto2" src={Book}/>
             <p className="title">My Modern American Table: Recipes for Inspired Home Cooks</p>
             <p className="price1">$40</p>
-            <div className="payButton">Complete With PayPal</div>
+            <div className="payButton"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick"/>
+<input type="hidden" name="hosted_button_id" value="3KX343BJPXFC6"/>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+</form>
+</div>
           </div>
         </div>
         <div className="pastaLessons">
           <h2 className="pastaTitle">Pasta Making Experience for 4</h2>
-          <p className="pastaDescription">Enjoy an exclusive Pasta Making Class for 4 with Shaun O'Neale. Acquire the skills to make pasta in your very home after this class.</p>
+          <p className="pastaDescription">Enjoy an exclusive Pasta Making Class for 4 with Shaun O'Neale Fox's MasterChef Season 7 Winner. Acquire the skills to make pasta in your very home after this class.</p>
           <div className="pastaPayContainer">
             <div className="pastaAmount"><h3 className="pastah3Amount">$350</h3></div>
-            <div className="pastaPay"><h3 className="pastah3Pay">Complete With Pay PayPal</h3></div>
+            <div className="pastaPay"><form className="pastaButton" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick"/>
+<input type="hidden" name="hosted_button_id" value="3452WPMD44H2L"/>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+</form>
+</div>
           </div>
           <img className="pastaLessonPhoto" src={PastaLessons}/>
         </div>

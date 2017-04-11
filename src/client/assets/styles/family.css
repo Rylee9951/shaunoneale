@@ -2,13 +2,13 @@
 
 }
 .familyRecipeContainer{
-	width: 1400px;
+	width: 1360px;
 	height: 740px;
 	margin: auto;
 	margin-top: 20px;
 }
 .familyRecipeContainer2{
-	width: 1400px;
+	width: 1360px;
 	height: 919px;
 	margin: auto;
 	margin-top: 40px;
@@ -27,13 +27,13 @@
 .serveAmount{
 	font-size: 20px;
     float: right;
-    width: 995px;
+    width: 947px;
     margin-left: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 .familySummary{
-	width: 1000px;
+	width: 950px;
 	float: right;
 	text-align: justify;
 }
@@ -47,13 +47,13 @@
 }
 
 .familyIngredients{
-	width: 1000px;
+	width: 951px;
 	height: 230px;
     display: inline-flex;
     margin-top: -5px;
 }
 .familyIngredients2{
-	width: 1000px;
+	width: 951px;
 	height: 250px;
     display: inline-flex;
     margin-top: -5px;

@@ -2,19 +2,19 @@
 
 }
 .classyRecipeContainer{
-	width: 1400px;
+	width: 1360px;
 	height: 1085px;
 	margin: auto;
 	margin-top: 20px;
 }
 .classyRecipeContainer2{
-	width: 1400px;
+	width: 1360px;
 	height: 868px;
 	margin: auto;
 	margin-top: 40px;
 }
 .classyRecipeContainer3{
-	width: 1400px;
+	width: 1360px;
 	height: 1274px;
 	margin: auto;
 	margin-top: 40px;
@@ -33,13 +33,13 @@
 .serveAmount{
 	font-size: 20px;
     float: right;
-    width: 995px;
+    width: 947px;
     margin-left: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 .classySummary{
-	width: 1000px;
+	width: 950px;
 	float: right;
 	text-align: justify;
 }
@@ -53,19 +53,19 @@
 }
 
 .classyIngredients{
-	width: 1000px;
+	width: 951px;
 	height: 415px;
     display: inline-flex;
     margin-top: -5px;
 }
 .classyIngredients2{
-	width: 1000px;
+	width: 951px;
 	height: 380px;
     display: inline-flex;
     margin-top: -5px;
 }
 .classyIngredients3{
-	width: 1000px;
+	width: 951px;
 	height: 330px;
     display: inline-flex;
     margin-top: -5px;
