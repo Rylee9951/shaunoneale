@@ -3,9 +3,9 @@ import { Link } from 'react-router'
 import 'assets/styles/store.css'
 import Book from 'assets/images/bookCover.png'
 import PastaLessons from 'assets/images/makingpasta.png'
-//temporary
-import Under from 'assets/images/ucp.png'
-import 'assets/styles/blog.css'
+import Mens from 'assets/images/mHat.png'
+import Womens from 'assets/images/wHat.png'
+import Spoons from 'assets/images/spoons.png'
 
 export default React.createClass({
   render: function (){
@@ -48,6 +48,40 @@ export default React.createClass({
 </div>
           </div>
           <img className="pastaLessonPhoto" src={PastaLessons}/>
+        </div>
+        <div className="sellingContainer">
+          <div className="selling">
+            <div className="mHat">
+              <img className="mens" src={Mens}/>
+              <div className="mHatPayContainer">
+                <div className="mHatAmount">
+                  <h4 className="mHath3Amount">$31.99</h4>
+                </div>
+                <div className="mHatPay">
+                </div>
+              </div>
+            </div>
+            <div className="wHat">
+              <img className="womens" src={Womens}/>
+              <div className="wHatPayContainer">
+                <div className="wHatAmount">
+                  <h4 className="wHath3Amount">$31.99</h4>
+                </div>
+                <div className="wHatPay">
+                </div>
+              </div>
+            </div>
+            <div className="spoons">
+              <img className="platingSpoon" src={Spoons}/>
+              <div className="spoonPayContainer">
+                <div className="spoonAmount">
+                  <h4 className="spoonh3Amount">$29.99</h4>
+                </div>
+                <div className="spoonPay">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     )

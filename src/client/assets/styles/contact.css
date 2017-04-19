@@ -16,3 +16,31 @@
 .link:hover{
 	color: blue;
 }
+.sponsorContainer{
+	width: 700px;
+	margin: auto;
+	text-align: center;
+}
+.sponsor{
+	width: 500px;
+	display: inline-flex;
+}
+.sponsorHeader{
+
+}
+.green{
+	width: 200px;
+	float: left;
+}
+.giant{
+	width: 200px;
+}
+.topLine{
+	width: 200px;
+	float: right;
+}
+.farms{
+	width: 200px;
+    margin-top: 42px;
+    margin-left: 100px;
+}

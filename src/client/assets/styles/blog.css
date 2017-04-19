@@ -1,3 +1,5 @@
-.under{
-	width: 1600px;
+#blogContainer{
+	width: 1000px;
+	margin: auto;
+	text-align: justify;
 }
