@@ -53,6 +53,10 @@
     margin: 5px;
     font-family: 'BT Futura W01', Arial, sans-serif;
 }
+.shipping{
+    margin-top: -8px;
+    font-size: 9px;
+}
 /*.payButton{
 	width: 250px;
     height: 28px;
@@ -145,24 +149,37 @@
     width: 1000px;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 .selling{
     width: 1000px;
     display: inline-flex;
 }
+.description{
+    margin-top: 0;
+    text-align: center;
+    padding: 1px;
+}
 .mHat{
     width: 250px;
-    height: 300px;
+    height: 350px;
     border: 3px solid #ccc;
     border-radius: 8px;
-    margin-right: 100px;
-    
+    margin-right: 118px;
+    background-color: #F6E5C5;
 }
 .mens{
     width: 250px;
     height: 250px;
     transform: rotate(90deg);
     border-radius: 5px 0 0 5px;
+
+}
+.mHatDescription{
+    width: 250px;
+    height: 50px;
+    color: black;
+    font-size: 13px;
 
 }
 .mHatPayContainer{
@@ -176,7 +193,7 @@
     float: left;
     font-size: 15px;
     text-align: center;
-    color: white;
+    color: black;
     font-family: 'BT Futura W01', Arial, sans-serif;
     margin-top: -5px;
 }
@@ -190,23 +207,30 @@
     font-size: 15px;
     text-align: center;
     float: right;
-    color: white;
+    color: black;
     font-family: 'BT Futura W01', Arial, sans-serif;
     margin-top: -5px;
+    line-height: 4;
 }
 .wHat{
     width: 250px;
-    height: 300px;
+    height: 350px;
     border: 3px solid #ccc;
     border-radius: 8px;
-    margin-right: 100px;
-   
+    margin-right: 118px;
+    background-color: #F6E5C5;
 }
 .womens{
     width: 250px;
     height: 250px;
     transform: rotate(90deg);
     border-radius: 5px 0 0 5px;
+}
+.wHatDescription{
+    width: 250px;
+    height: 50px;
+    color: black;
+    font-size: 13px;
 }
 .wHatPayContainer{
     width: 250;
@@ -219,7 +243,7 @@
     float: left;
     font-size: 15px;
     text-align: center;
-    color: white;
+    color: black;
     font-family: 'BT Futura W01', Arial, sans-serif;
     margin-top: -5px;
 }
@@ -233,21 +257,29 @@
     font-size: 15px;
     text-align: center;
     float: right;
-    color: white;
+    color: black;
     font-family: 'BT Futura W01', Arial, sans-serif;
     margin-top: -5px;
+    line-height: 4;
 }
 .spoons{
     width: 250px;
-    height: 300px;
+    height: 350px;
     border: 3px solid #ccc;
     border-radius: 8px;
+    background-color: #F6E5C5;
 
 }
 .platingSpoon{
     width: 250px;
     height: 250px;
     border-radius: 5px 5px 0 0;
+}
+.spoonDescription{
+    width: 250px;
+    height: 50px;
+    color: black;
+    font-size: 13px;
 }
 .spoonAmount{
     width: 125px;
@@ -256,7 +288,7 @@
     float: left;
     font-size: 15px;
     text-align: center;
-    color: white;
+    color: black;
     font-family: 'BT Futura W01', Arial, sans-serif;
     margin-top: -5px;
 }
@@ -274,7 +306,8 @@
     font-size: 15px;
     text-align: center;
     float: right;
-    color: white;
+    color: black;
     font-family: 'BT Futura W01', Arial, sans-serif;
     margin-top: -5px;
+    line-height: 4;
 }

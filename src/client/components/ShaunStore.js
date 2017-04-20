@@ -24,7 +24,7 @@ export default React.createClass({
             <h3 className="pre">Get Your Autographed Copy</h3>
             <img className="bookPhoto2" src={Book}/>
             <p className="title">My Modern American Table: Recipes for Inspired Home Cooks</p>
-            <p className="price1">$40</p>
+            <p className="price1">$40</p><p className="shipping">Shipping only in the Continental U.S.</p>
             <div className="payButton"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick"/>
 <input type="hidden" name="hosted_button_id" value="3KX343BJPXFC6"/>
@@ -53,31 +53,55 @@ export default React.createClass({
           <div className="selling">
             <div className="mHat">
               <img className="mens" src={Mens}/>
+              <div className="mHatDescription"><p className="description">Shaun O'Neale embroidered Men's logo hat, shipping only available in the Continental U.S</p></div>
               <div className="mHatPayContainer">
                 <div className="mHatAmount">
                   <h4 className="mHath3Amount">$31.99</h4>
                 </div>
                 <div className="mHatPay">
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick"/>
+<input type="hidden" name="hosted_button_id" value="XF8KTRJYYUEQY"/>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+</form>
+
                 </div>
               </div>
             </div>
             <div className="wHat">
               <img className="womens" src={Womens}/>
+              <div className="wHatDescription"><p className="description">Shaun O'Neale embroidered Women's logo hat, shipping only available in the Continental U.S.</p></div>
               <div className="wHatPayContainer">
                 <div className="wHatAmount">
                   <h4 className="wHath3Amount">$31.99</h4>
                 </div>
                 <div className="wHatPay">
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick"/>
+<input type="hidden" name="hosted_button_id" value="GGEGKL57JL4SS"/>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+</form>
+
                 </div>
               </div>
             </div>
             <div className="spoons">
               <img className="platingSpoon" src={Spoons}/>
+              <div className="spoonDescription"><p className="description">Shaun O'Neale Plating Spoon with Logo, shipping only available in the Continental U.S.</p></div>
               <div className="spoonPayContainer">
                 <div className="spoonAmount">
                   <h4 className="spoonh3Amount">$29.99</h4>
                 </div>
                 <div className="spoonPay">
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick"/>
+<input type="hidden" name="hosted_button_id" value="6TY86UGBMZRKU"/>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+</form>
+
                 </div>
               </div>
             </div>
