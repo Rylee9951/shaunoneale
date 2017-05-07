@@ -78,7 +78,7 @@
     border-radius: 15px;
     margin-top: 30px;
     background-image: url("../images/pastaBackground.png");
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("../images/pastaBackground.png");
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url("../images/pastaBackground.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -400px -321px
@@ -120,6 +120,7 @@
     text-align: center;
     color: white;
     font-family: 'BT Futura W01', Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 .pastah3Amount{
     margin: 18px;
@@ -134,9 +135,13 @@
     border-right: none;
     color: white;
     font-family: 'BT Futura W01', Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.4);
 }
-.pastah3Pay{
-    margin: 10px;
+.aPastaPay{
+    color: white;
+}
+.pPay{
+    margin-top: 0;
 }
 .pastaLessonPhoto{
 	width: 400px;
@@ -146,13 +151,13 @@
     margin-top: 25px;
 }
 .sellingContainer{
-    width: 1000px;
+    width: 631px;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 .selling{
-    width: 1000px;
+    width: 631px;
     display: inline-flex;
 }
 .description{
@@ -251,55 +256,6 @@
 
 }
 .wHatPay{
-    width: 121px;
-    height: 50px;
-    border: 1px solid #ccc;
-    font-size: 15px;
-    text-align: center;
-    float: right;
-    color: black;
-    font-family: 'BT Futura W01', Arial, sans-serif;
-    margin-top: -5px;
-    line-height: 4;
-}
-.spoons{
-    width: 250px;
-    height: 350px;
-    border: 3px solid #ccc;
-    border-radius: 8px;
-    background-color: #F6E5C5;
-
-}
-.platingSpoon{
-    width: 250px;
-    height: 250px;
-    border-radius: 5px 5px 0 0;
-}
-.spoonDescription{
-    width: 250px;
-    height: 50px;
-    color: black;
-    font-size: 13px;
-}
-.spoonAmount{
-    width: 125px;
-    height: 50px;
-    border: 1px solid #ccc;
-    float: left;
-    font-size: 15px;
-    text-align: center;
-    color: black;
-    font-family: 'BT Futura W01', Arial, sans-serif;
-    margin-top: -5px;
-}
-.spoonPayContainer{
-    width: 250;
-    height: 50px;
-}
-.spoonh3Amount{
-
-}
-.spoonPay{
     width: 121px;
     height: 50px;
     border: 1px solid #ccc;

@@ -39,13 +39,11 @@ export default React.createClass({
           <p className="pastaDescription">Enjoy an exclusive Pasta Making Class for 4 with Shaun O'Neale Fox's MasterChef Season 7 Winner. Acquire the skills to make pasta in your very home after this class.</p>
           <div className="pastaPayContainer">
             <div className="pastaAmount"><h3 className="pastah3Amount">$350</h3></div>
-            <div className="pastaPay"><form className="pastaButton" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick"/>
-<input type="hidden" name="hosted_button_id" value="3452WPMD44H2L"/>
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-</form>
-</div>
+            <div className="pastaPay">
+              <a className="aPastaPay" href="https://www.eatwith.com/profile/160729/">
+                <p className="pPay">Brought to you by EatWith<br/>Click Here</p>
+              </a>
+            </div>
           </div>
           <img className="pastaLessonPhoto" src={PastaLessons}/>
         </div>
@@ -60,12 +58,11 @@ export default React.createClass({
                 </div>
                 <div className="mHatPay">
                   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick"/>
-<input type="hidden" name="hosted_button_id" value="XF8KTRJYYUEQY"/>
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-</form>
-
+                    <input type="hidden" name="cmd" value="_s-xclick"/>
+                    <input type="hidden" name="hosted_button_id" value="XF8KTRJYYUEQY"/>
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+                  </form>
                 </div>
               </div>
             </div>
@@ -78,30 +75,11 @@ export default React.createClass({
                 </div>
                 <div className="wHatPay">
                   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick"/>
-<input type="hidden" name="hosted_button_id" value="GGEGKL57JL4SS"/>
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-</form>
-
-                </div>
-              </div>
-            </div>
-            <div className="spoons">
-              <img className="platingSpoon" src={Spoons}/>
-              <div className="spoonDescription"><p className="description">Shaun O'Neale Plating Spoon with Logo, shipping only available in the Continental U.S.</p></div>
-              <div className="spoonPayContainer">
-                <div className="spoonAmount">
-                  <h4 className="spoonh3Amount">$29.99</h4>
-                </div>
-                <div className="spoonPay">
-                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick"/>
-<input type="hidden" name="hosted_button_id" value="6TY86UGBMZRKU"/>
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
-</form>
-
+                    <input type="hidden" name="cmd" value="_s-xclick"/>
+                    <input type="hidden" name="hosted_button_id" value="GGEGKL57JL4SS"/>
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+                  </form>
                 </div>
               </div>
             </div>
