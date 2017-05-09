@@ -1,7 +1,6 @@
 import React from 'react'
 import 'assets/styles/contact.css'
-import Green from 'assets/images/greenGiant_sponsor.png'
-import TopLine from 'assets/images/topLine_sponsor.png'
+
 
 export default React.createClass({
   render: function (){

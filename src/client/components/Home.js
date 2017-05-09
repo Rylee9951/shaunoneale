@@ -28,7 +28,7 @@ export default React.createClass({
           </a>
           <a href="https://www.amazon.com/My-Modern-American-Table-Masterchef/dp/1419724002/ref=sr_1_fkmr0_1?s=books&ie=UTF8&qid=1484763141&sr=1-1-fkmr0&keywords=shaun+oneale+cookbook">
             <div className="cookBook">
-              <h3 className="pre">Pre Order Now</h3>
+              <h3 className="pre">Order Now</h3>
               <img className="bookPhoto" src={Book}/>
               <p className="title">My Modern American Table: Recipes for Inspired Home Cooks</p>
               <p className="date">Available May 9th 2017</p>
