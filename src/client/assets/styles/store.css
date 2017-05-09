@@ -228,7 +228,7 @@
 .womens{
     width: 250px;
     height: 250px;
-    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
     border-radius: 5px 0 0 5px;
 }
 .wHatDescription{
