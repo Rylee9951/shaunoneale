@@ -19,37 +19,49 @@ export default React.createClass({
           <div className="recipe">
             <Link to="/family"> 
               <img className="recipeCoverphotos" src={Family}/>
-              <p className="recipeGroup">The Family</p>
+              <div className="recipeGroupContainer">
+                <p className="recipeGroup">The Family</p>
+              </div>
             </Link>
           </div>
           <div className="recipe">
             <Link to="/classy"> 
               <img className="recipeCoverphotos" src={Classy}/>
-              <p className="recipeGroup">The Classy</p>
+              <div className="recipeGroupContainer">
+                <p className="recipeGroup">The Classy</p>
+              </div>
             </Link>
           </div>
           <div className="recipe">
             <Link to="/dessert"> 
               <img className="recipeCoverphotos" src={Dessert}/>
-              <p className="recipeGroup">The Dessert</p>
+              <div className="recipeGroupContainer">
+                <p className="recipeGroup">The Dessert</p>
+              </div>
             </Link>
           </div>
           <div className="recipe">
             <Link to="/sides"> 
               <img className="recipeCoverphotos" src={Sides}/>
-              <p className="recipeGroup">The Sides</p>
+              <div className="recipeGroupContainer">
+                <p className="recipeGroup">The Sides</p>
+              </div>
             </Link>
           </div>
           <div className="recipe">
             <Link to="/snacks"> 
               <img className="recipeCoverphotos" src={Snack}/>
-              <p className="recipeGroup">The Snacks</p>
+              <div className="recipeGroupContainer">
+                <p className="recipeGroup">The Snacks</p>
+              </div>
             </Link>
           </div>
           <div className="recipe">
             <Link to="/cocktails"> 
               <img className="recipeCoverphotos" src={Cocktails}/>
-              <p className="recipeGroup">The Cocktails</p>
+              <div className="recipeGroupContainer">
+                <p className="recipeGroup">The Cocktails</p>
+              </div>
             </Link>
           </div>
         </div>

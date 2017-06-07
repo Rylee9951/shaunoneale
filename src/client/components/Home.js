@@ -31,7 +31,6 @@ export default React.createClass({
               <h3 className="pre">Order Now</h3>
               <img className="bookPhoto" src={Book}/>
               <p className="title">My Modern American Table: Recipes for Inspired Home Cooks</p>
-              <p className="date">Available May 9th 2017</p>
             </div>
           </a>
         </div>

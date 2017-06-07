@@ -1,96 +1,311 @@
-.bio{
-	width: 1000px;
-	text-align: justify;
-	margin: auto;
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 620px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .bio{
+        width: 1230px;
+        text-align: justify;
+        margin: auto;
+    }
+    .about{
+        font-family: 'BT Futura W01', Arial, sans-serif;
+        color: #101010;
+        font-size: 5rem;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 200;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        padding-bottom: 10px;
+        margin-top: 0;
+    }
+    .para{
+        padding: 5px;
+        font-family: 'BT Futura W01', Arial, sans-serif;
+        font-size: 45px;
+        font-weight: 100;
+        letter-spacing: 0.2px;
+        color: #101010;
+        padding-top: 0;
+    }
+    .image9{
+        width: 100%;
+        height: 700px;
+        background-position: 0px -30px;
+        background-image: url("../images/image9.png");
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    .upcomingContainer{
+        width: 1350px;
+        margin: auto;
+    }
+    .cruise{
+        width: 1350px;
+        height: 1350px;
+        float: left;
+    }
+    .cookBook{
+        width: 1350px;
+        height: 1350px;
+        float: right;
+        border: 2px solid #ccc;
+        border-radius: 20px;
+        text-align: center;
+        background-color: #FEE2BE;
+        margin-top: 40px;
+    }
+    .cruisePhoto{
+        width: 1350px;
+        height: 1350px;
+        border-radius: 20px;
+    }
+    .bookPhoto{
+        width: 900px;
+        height: 1055px;
+        margin-top: -15px;
+    }
+    .pre{
+        font-size: 100px;
+        margin: 10px 0 0 0px;
+        font-family: 'BT Futura W01', Arial, sans-serif;
+    }
+    .title{
+        font-size: 77px;
+        margin: 5px 0 0 0;
+        font-family: 'BT Futura W01', Arial, sans-serif;
+    }
+    .date{
+        font-size: 15px;
+        margin: 5px;
+        text-decoration: underline;
+        font-family: 'BT Futura W01', Arial, sans-serif;
+    }
+    .eatWithContainer{
+        width: 1350px;
+        margin: auto;
+    }
+    .eatWithImage{
+        width: 1350px;
+        margin-top: 40px;
+    }
+    .scheduleContainer{
+        width: 1350px;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .scheduleImage{
+        width: 1350px;
+    }
+
 }
-.about{
-	font-family: 'BT Futura W01', Arial, sans-serif;
-    color: #101010;
-    font-size: 2rem;
-    text-align: center;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 200;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    padding-bottom: 10px;
+
+@media only screen 
+  and (min-device-width: 621px) 
+  and (max-device-width: 921px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .bio{
+        width: 1230px;
+        text-align: justify;
+        margin: auto;
+    }
+    .about{
+        font-family: 'BT Futura W01', Arial, sans-serif;
+        color: #101010;
+        font-size: 3rem;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 200;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        padding-bottom: 10px;
+        margin-top: 0;
+    }
+    .para{
+        padding: 5px;
+        font-family: 'BT Futura W01', Arial, sans-serif;
+        font-size: 25px;
+        font-weight: 100;
+        letter-spacing: 0.2px;
+        color: #101010;
+        padding-top: 0;
+    }
+    .image9{
+        width: 100%;
+        height: 700px;
+        background-position: 0px -30px;
+        background-image: url("../images/image9.png");
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    .upcomingContainer{
+        width: 1350px;
+        margin: auto;
+    }
+    .cruise{
+        width: 1350px;
+        height: 1350px;
+        float: left;
+    }
+    .cookBook{
+        width: 1350px;
+        height: 1350px;
+        float: right;
+        border: 2px solid #ccc;
+        border-radius: 20px;
+        text-align: center;
+        background-color: #FEE2BE;
+        margin-top: 40px;
+    }
+    .cruisePhoto{
+        width: 1350px;
+        height: 1350px;
+        border-radius: 20px;
+    }
+    .bookPhoto{
+        width: 900px;
+        height: 1055px;
+        margin-top: -15px;
+    }
+    .pre{
+        font-size: 100px;
+        margin: 10px 0 0 0px;
+        font-family: 'BT Futura W01', Arial, sans-serif;
+    }
+    .title{
+        font-size: 77px;
+        margin: 5px 0 0 0;
+        font-family: 'BT Futura W01', Arial, sans-serif;
+    }
+    .date{
+        font-size: 15px;
+        margin: 5px;
+        text-decoration: underline;
+        font-family: 'BT Futura W01', Arial, sans-serif;
+    }
+    .eatWithContainer{
+        width: 1350px;
+        margin: auto;
+    }
+    .eatWithImage{
+        width: 1350px;
+        margin-top: 40px;
+    }
+    .scheduleContainer{
+        width: 1350px;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .scheduleImage{
+        width: 1350px;
+    }
+
 }
-.para{
-	padding: 5px;
-	font-family: 'BT Futura W01', Arial, sans-serif;
-	font-size: 1.1em;
-	font-weight: 100;
-	letter-spacing: 0.2px;
-	color: #101010;
-	padding-top: 0;
-}
-.image9{
-	width: 100%;
-    height: 700px;
-    background-position: 0px -30px;
-    background-image: url("../images/image9.png");
-    background-size: cover;
-    background-repeat: no-repeat; 
-}
-.upcomingContainer{
-	width: 1000px;
-	margin: auto;
-	height: 430px;
-}
-.cruise{
-	width: 400px;
-    height: 400px;
-    float: left;
-}
-.cookBook{
-	width: 396px;
-    height: 396px;
-    float: right;
-    border: 2px solid #ccc;
-    border-radius: 20px;
-    text-align: center;
-    background-color: #FEE2BE;
-}
-.cruisePhoto{
-	width: 400px;
-    height: 400px;
-    border-radius: 20px;
-}
-.bookPhoto{
-	width: 220px;
-	height: 275px;
-}
-.pre{
-	font-size: 25px;
-    margin: 10px 0 0 0px;
-    font-family: 'BT Futura W01', Arial, sans-serif;
-}
-.title{
-	font-size: 20px;
-    margin: 5px 0 0 0;
-    font-family: 'BT Futura W01', Arial, sans-serif;
-}
-.date{
-	font-size: 15px;
-    margin: 5px;
-    text-decoration: underline;
-    font-family: 'BT Futura W01', Arial, sans-serif;
-}
-.eatWithContainer{
+
+@media only screen 
+  and (min-device-width: 922px)  
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .bio{
     width: 1000px;
+    text-align: justify;
     margin: auto;
+    }
+    .about{
+        font-family: 'BT Futura W01', Arial, sans-serif;
+        color: #101010;
+        font-size: 2rem;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 200;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        padding-bottom: 10px;
+    }
+    .para{
+        padding: 5px;
+        font-family: 'BT Futura W01', Arial, sans-serif;
+        font-size: 1.1em;
+        font-weight: 100;
+        letter-spacing: 0.2px;
+        color: #101010;
+        padding-top: 0;
+    }
+    .image9{
+        width: 100%;
+        height: 700px;
+        background-position: 0px -30px;
+        background-image: url("../images/image9.png");
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    .upcomingContainer{
+        width: 1000px;
+        margin: auto;
+        height: 430px;
+    }
+    .cruise{
+        width: 400px;
+        height: 400px;
+        float: left;
+    }
+    .cookBook{
+        width: 396px;
+        height: 396px;
+        float: right;
+        border: 2px solid #ccc;
+        border-radius: 20px;
+        text-align: center;
+        background-color: #FEE2BE;
+        margin-top: 0;
+    }
+    .cruisePhoto{
+        width: 400px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    .bookPhoto{
+        width: 245px;
+        height: 300px;
+        margin-top: 0;
+    }
+    .pre{
+        font-size: 25px;
+        margin: 10px 0 0 0px;
+        font-family: 'BT Futura W01', Arial, sans-serif;
+    }
+    .title{
+        font-size: 20px;
+        margin: 5px 0 0 0;
+        font-family: 'BT Futura W01', Arial, sans-serif;
+    }
+    .date{
+        font-size: 15px;
+        margin: 5px;
+        text-decoration: underline;
+        font-family: 'BT Futura W01', Arial, sans-serif;
+    }
+    .eatWithContainer{
+        width: 1000px;
+        margin: auto;
+    }
+    .eatWithImage{
+        width: 1000px;
+    }
+    .scheduleContainer{
+        width: 1000px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .scheduleImage{
+        width: 1000px;
+    }
+
 }
-.eatWithImage{
-    width: 1000px;
-}
-.scheduleContainer{
-    width: 1000px;
-    margin: auto;
-    margin-top: 30px;
-}
-.scheduleImage{
-    width: 1000px;
-}
+
 
 
 

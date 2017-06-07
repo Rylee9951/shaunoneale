@@ -1,18 +1,106 @@
-.contactContainer{
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 620px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	.contactContainer{
 	width: 1400px;
-}
-.contact{
-	margin: auto;
-	width: 500px;
-	text-align: center;
-}
-.contactHeader{
+	}
+	.contact{
+		margin: auto;
+		width: 1000px;
+		text-align: center;
+	}
+	.contactHeader{
+		font-size: 75px;
+		margin-top: 20px;
+	}
+	.general{
+		font-size: 65px;
+		margin-top: -52px;
+	}
+	.tvandfilm{
+		font-size: 65px;
+	}
+	.dj{
+		font-size: 65px;
+	}
+	.link{
+		text-decoration: underline;
+		font-style: italic;
+	}
+	.link:hover{
+		color: blue;
+	}
 
-}
-.link{
-	text-decoration: underline;
-	font-style: italic;
-}
-.link:hover{
-	color: blue;
-}
+  }
+
+@media only screen 
+  and (min-device-width: 621px) 
+  and (max-device-width: 921px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	.contactContainer{
+	width: 1400px;
+	}
+	.contact{
+		margin: auto;
+		width: 991px;
+		text-align: center;
+	}
+	.contactHeader{
+		font-size: 75px;
+		margin-top: 20px;
+	}
+	.general{
+		font-size: 55px;
+    	margin-top: -52px;
+	}
+	.tvandfilm{
+		font-size: 55px;
+	}
+	.dj{
+		font-size: 55px;
+	}
+	.link{
+		text-decoration: underline;
+		font-style: italic;
+	}
+	.link:hover{
+		color: blue;
+	}
+
+  }
+
+@media only screen 
+  and (min-device-width: 922px)  
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	.contactContainer{
+	width: 1400px;
+	}
+	.contact{
+		margin: auto;
+		width: 1000px;
+		text-align: center;
+	}
+	.contactHeader{
+		font-size: 40px;
+		margin-top: 0;
+	}
+	.general{
+		font-size: 40px;
+	}
+	.tvandfilm{
+		font-size: 40px;
+	}
+	.dj{
+		font-size: 40px;
+	}
+	.link{
+		text-decoration: underline;
+		font-style: italic;
+	}
+	.link:hover{
+		color: blue;
+	}
+
+  }
+

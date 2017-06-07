@@ -1,79 +1,311 @@
-body{
-	background-color: #EAEAEA;
-}
-.app{
-	min-width: 1400px;
-	max-width: 1400px;
-	margin:auto;
-	background-color: white;
-}
-a{
-	text-decoration: none;
-	color: black;
-}
-.header{
-	width: 100%;
-	min-width: 1200px;
-    height: 100px;
-    border-bottom: 1px solid #3b3b3b;
-}
-.logo_so{
-	width: 250px;
-    height: 100px;
-    float: left;
-}
-#icon_container{
-	display: flex;
-    font-size: 40px;
-    margin-top: 25px;
-    float: right;
-}
-.social_icons{
-	margin-right:20px;
-	color: #1d1d1d; 
-	cursor: pointer;
-}
-.social_icons:hover{
-	color: #626262;
-}
-.navButtons{
-	display: inline-flex;
-    font-size: 25px;
-    font-family: Arial, sans-serif;
-    margin: 0 0 0 100px;
-    text-transform: uppercase;
-}
-.nav{
-	margin: auto;
-	font-family: Arial, sans-serif;	
-	padding: 0 30px;
-	height: 100px;
-	line-height: 100px;
-	cursor: pointer;
-	transition: 0;
-}
-.nav:hover{
-	background-color: #757575;
-	height: 100px;
-	transition: 2s;
-}
-.footer{
-	width: 100%;
-	min-width: 1200px;
-    height: 100px;
-    border-top: 1px solid #3b3b3b;
-}
-#icon_container_bottom{
-	display: flex;
-    font-size: 40px;
-    margin-top: 25px;
-    float: left;
-}
-.social_icons_bottom{
-	margin-left:20px;
-	color: #1d1d1d; 
-	cursor: pointer;
-}
-.social_icons_bottom:hover{
-	color: #626262;
-}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 620px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	body{
+		background-color: #EAEAEA;
+	}
+	.app{
+		min-width: 1400px;
+		max-width: 1400px;
+		margin:auto;
+		background-color: white;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	.header{
+		width: 100%;
+		min-width: 1200px;
+	    height: 100px;
+	    border-bottom: 1px solid #3b3b3b;
+	}
+	.logo_so{
+		width: 250px;
+	    height: 100px;
+	    float: left;
+	}
+	#icon_container{
+		display: none;
+	    font-size: 40px;
+	    margin-top: 25px;
+	    float: right;
+	}
+	.social_icons{
+		margin-right:20px;
+		color: #1d1d1d; 
+		cursor: pointer;
+	}
+	.social_icons:hover{
+		color: #626262;
+	}
+	.dropdown {
+		display: inline-flex;
+	    color: #1d1d1d;
+	    cursor: pointer;
+	    font-size: 52px;
+	    margin-top: 25px;
+	    float: right;
+	    margin-right: 30px;
+	}
+	.navButtons{
+		display: none;
+	    font-size: 25px;
+	    font-family: Arial, sans-serif;
+	    margin: 0 0 0 100px;
+	    text-transform: uppercase;
+	}
+	.nav{
+		margin: auto;
+		font-family: Arial, sans-serif;	
+		padding: 0 30px;
+		height: 100px;
+		line-height: 100px;
+		cursor: pointer;
+		transition: 0;
+	}
+	.nav:hover{
+		background-color: #757575;
+		height: 100px;
+		transition: 2s;
+	}
+	.footer{
+		width: 100%;
+	    min-width: 1200px;
+	    height: 100px;
+	    border-top: 1px solid #3b3b3b;
+	    margin: auto;
+	}
+	#icon_container_bottom{
+		display: flex;
+	    font-size: 90px;
+	    margin-top: 25px;
+	    text-align: center;
+	    width: 615px;
+	    height: 50px;
+	    margin: auto;
+	}
+	.social_icons_bottom{
+		margin-left: 100px;
+		color: #1d1d1d; 
+		cursor: pointer;
+	}
+	.social_icons_bottom:hover{
+		color: #626262;
+	}
+	.m_navbar_open {
+		display: block;
+	    list-style-type: none;
+	    padding-left: 0;
+	    font-size: 55px;
+	    width: 250px;
+	    height: 350px;
+	    color: white;
+	    background-color: #959494;
+	    position: fixed;
+	    right: 0px;
+	    top: 46px;
+	    text-align: center;
+	    float: right;
+	}
+	.m_navbar_closed {
+		display: none;
+	}
+  }
+
+@media only screen 
+  and (min-device-width: 621px) 
+  and (max-device-width: 921px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	body{
+		background-color: #EAEAEA;
+	}
+	.app{
+		min-width: 1400px;
+		max-width: 1400px;
+		margin:auto;
+		background-color: white;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	.header{
+		width: 100%;
+		min-width: 1200px;
+	    height: 100px;
+	    border-bottom: 1px solid #3b3b3b;
+	}
+	.logo_so{
+		width: 250px;
+	    height: 100px;
+	    float: left;
+	}
+	#icon_container{
+		display: flex;
+	    font-size: 40px;
+	    margin-top: 25px;
+	    float: right;
+	}
+	.social_icons{
+		margin-right:20px;
+		color: #1d1d1d; 
+		cursor: pointer;
+	}
+	.social_icons:hover{
+		color: #626262;
+	}
+	.dropdown {
+		display: none;
+		color: #1d1d1d;
+		cursor: pointer;
+	}
+	.navButtons{
+		display: inline-flex;
+	    font-size: 25px;
+	    font-family: Arial, sans-serif;
+	    margin: 0 0 0 100px;
+	    text-transform: uppercase;
+	}
+	.nav{
+		margin: auto;
+		font-family: Arial, sans-serif;	
+		padding: 0 30px;
+		height: 100px;
+		line-height: 100px;
+		cursor: pointer;
+		transition: 0;
+	}
+	.nav:hover{
+		background-color: #757575;
+		height: 100px;
+		transition: 2s;
+	}
+	.footer{
+		width: 100%;
+		min-width: 1200px;
+	    height: 100px;
+	    border-top: 1px solid #3b3b3b;
+	}
+	#icon_container_bottom{
+		display: flex;
+	    font-size: 40px;
+	    margin-top: 25px;
+	    float: left;
+	}
+	.social_icons_bottom{
+		margin-left:20px;
+		color: #1d1d1d; 
+		cursor: pointer;
+	}
+	.social_icons_bottom:hover{
+		color: #626262;
+	}
+	.m_navbar {
+		display: none;
+	}
+	.m_navbar_closed {
+		display: none;
+	}
+  }
+
+@media only screen 
+  and (min-device-width: 922px)  
+  and (-webkit-min-device-pixel-ratio: 2) {
+	body{
+		background-color: #EAEAEA;
+	}
+	.app{
+		min-width: 1400px;
+		max-width: 1400px;
+		margin:auto;
+		background-color: white;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	.header{
+		width: 100%;
+		min-width: 1200px;
+	    height: 100px;
+	    border-bottom: 1px solid #3b3b3b;
+	}
+	.logo_so{
+		width: 250px;
+	    height: 100px;
+	    float: left;
+	}
+	#icon_container{
+		display: flex;
+	    font-size: 40px;
+	    margin-top: 25px;
+	    float: right;
+	}
+	.social_icons{
+		margin-right:20px;
+		color: #1d1d1d; 
+		cursor: pointer;
+	}
+	.social_icons:hover{
+		color: #626262;
+	}
+	.dropdown {
+		display: none;
+		color: #1d1d1d;
+		cursor: pointer;
+	}
+	.navButtons{
+		display: inline-flex;
+	    font-size: 25px;
+	    font-family: Arial, sans-serif;
+	    margin: 0 0 0 100px;
+	    text-transform: uppercase;
+	}
+	.nav{
+		margin: auto;
+		font-family: Arial, sans-serif;	
+		padding: 0 30px;
+		height: 100px;
+		line-height: 100px;
+		cursor: pointer;
+		transition: 0;
+	}
+	.nav:hover{
+		background-color: #757575;
+		height: 100px;
+		transition: 2s;
+	}
+	.footer{
+		width: 100%;
+		min-width: 1200px;
+	    height: 100px;
+	    border-top: 1px solid #3b3b3b;
+	}
+	#icon_container_bottom{
+		display: flex;
+	    font-size: 40px;
+	    margin-top: 25px;
+	    float: left;
+	}
+	.social_icons_bottom{
+		margin-left:20px;
+		color: #1d1d1d; 
+		cursor: pointer;
+	}
+	.social_icons_bottom:hover{
+		color: #626262;
+	}
+	.m_navbar {
+		display: none;
+	}
+	.m_navbar_closed {
+		display: none;
+	}
+  }
+
+
+
+
+

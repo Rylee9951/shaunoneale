@@ -6,7 +6,20 @@ import 'assets/styles/layout.css'
 //import Drawer from 'components/Drawer'
 
 export default React.createClass({
+  getInitialState: function() {
+    return {
+        clicked: false
+      }
+},
+  toggleDropdown: function() {
+    if(this.state.clicked === true){
+      this.setState({clicked: false})
+    } else {
+      this.setState({clicked: true})
+    }
+  },
   render: function () {
+    var className = this.state.clicked ? 'm_navbar_open' : 'm_navbar_closed';
     return (
       <div className="app">
         <main> 
@@ -39,6 +52,28 @@ export default React.createClass({
             <a href="https://www.instagram.com/djshaunoneale/?hl=en">
               <div className="social_icons"><i className="fa fa-instagram" aria-hidden="true"></i></div>
             </a>
+          </div>
+          <div onClick={this.toggleDropdown} className="dropdown">
+              <i className="fa fa-bars" aria-hidden="true"></i>
+          </div>
+          <div>
+            <ul className={className} onClick={this.toggleDropdown}>
+              <Link to="/">
+                <li>Home</li>
+              </Link>
+              <Link to="/blog">
+                <li>Blog</li>
+              </Link>
+              <Link to="/recipes">
+                <li>Recipes</li>
+              </Link>
+              <Link to="/store">
+                <li>Store</li>
+              </Link>
+              <Link to="/contact">
+                <li>Contact</li>
+              </Link>
+            </ul>
           </div>
          </div>
           {this.props.children}

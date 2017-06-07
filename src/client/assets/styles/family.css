@@ -1,95 +1,305 @@
-#familyContainer{
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 620px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  #familyContainer{
 
-}
-.familyRecipeContainer{
-	width: 1360px;
-	height: 740px;
-	margin: auto;
-	margin-top: 20px;
-}
-.familyRecipeContainer2{
-	width: 1360px;
-	height: 919px;
-	margin: auto;
-	margin-top: 70px;
-}
-.familyPhoto{
-	width: 400px;
-	height: 325px;
-	float: left;
-}
-.familyImage{
-	width: 400px;
-	height: 325px;
-	float: left;
-	border-radius: 8px;
-}
-.serveAmount{
-	font-size: 20px;
-    float: right;
-    width: 947px;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.familySummary{
-	width: 950px;
-	float: right;
-	text-align: justify;
-}
-.familyTitle{
-	font-size: 20px;
-    margin: 5px 0 0 5px;
-}
-.familyRecipeSummary{
-	font-size: 15px;
-	margin: 5px 0 0 5px;
-}
+	}
+	.familyRecipeContainer{
+		width: 1360px;
+		height: 740px;
+		margin: auto;
+		margin-top: 20px;
+	}
+	.familyRecipeContainer2{
+		width: 1360px;
+		height: 919px;
+		margin: auto;
+		margin-top: 70px;
+	}
+	.familyPhoto{
+		width: 400px;
+		height: 325px;
+		float: left;
+	}
+	.familyImage{
+		width: 400px;
+		height: 325px;
+		float: left;
+		border-radius: 8px;
+	}
+	.serveAmount{
+		font-size: 20px;
+	    float: right;
+	    width: 947px;
+	    margin-left: 5px;
+	    margin-top: 5px;
+	    margin-bottom: 5px;
+	}
+	.familySummary{
+		width: 950px;
+		float: right;
+		text-align: justify;
+	}
+	.familyTitle{
+		font-size: 20px;
+	    margin: 5px 0 0 5px;
+	}
+	.familyRecipeSummary{
+		font-size: 15px;
+		margin: 5px 0 0 5px;
+	}
 
-.familyIngredients{
-	width: 951px;
-	height: 230px;
-    display: inline-flex;
-    margin-top: -5px;
-}
-.familyIngredients2{
-	width: 951px;
-	height: 250px;
-    display: inline-flex;
-    margin-top: -5px;
-}
-.familyIngredient{
-	width: 200px;
-	margin-left: 10px;
-}
-.familyIngredientTitle{
-	font-size: 17px;
-    margin: 5px;
-    text-decoration: underline;
-}
-.familyEachIngredient{
-	font-size: 15px;
-	margin: 5px;
-}
-.ovenTemp{
-	margin: 5px;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 18px;
-}
-.familyDirections{
-	width: 1000px;
-	margin: auto;
-	border-bottom: 1px solid #ccc;
-}
-.familyDirection{
-	text-align: justify;
-}
-.familyDirectionTitle{
-	font-size: 20px;
-	margin: 5px;
-}
-.familyDirectionSummary{
-	font-size: 15px;
-	margin: 5px;
-}
+	.familyIngredients{
+		width: 951px;
+		height: 230px;
+	    display: inline-flex;
+	    margin-top: -5px;
+	}
+	.familyIngredients2{
+		width: 951px;
+		height: 250px;
+	    display: inline-flex;
+	    margin-top: -5px;
+	}
+	.familyIngredient{
+		width: 200px;
+		margin-left: 10px;
+	}
+	.familyIngredientTitle{
+		font-size: 17px;
+	    margin: 5px;
+	    text-decoration: underline;
+	}
+	.familyEachIngredient{
+		font-size: 15px;
+		margin: 5px;
+	}
+	.ovenTemp{
+		margin: 5px;
+	    text-align: center;
+	    text-decoration: underline;
+	    font-size: 18px;
+	}
+	.familyDirections{
+		width: 1000px;
+		margin: auto;
+		border-bottom: 1px solid #ccc;
+	}
+	.familyDirection{
+		text-align: justify;
+	}
+	.familyDirectionTitle{
+		font-size: 20px;
+		margin: 5px;
+	}
+	.familyDirectionSummary{
+		font-size: 15px;
+		margin: 5px;
+	}
+
+  }
+
+@media only screen 
+  and (min-device-width: 621px) 
+  and (max-device-width: 921px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  #familyContainer{
+
+	}
+	.familyRecipeContainer{
+		width: 1360px;
+		height: 740px;
+		margin: auto;
+		margin-top: 20px;
+	}
+	.familyRecipeContainer2{
+		width: 1360px;
+		height: 919px;
+		margin: auto;
+		margin-top: 70px;
+	}
+	.familyPhoto{
+		width: 400px;
+		height: 325px;
+		float: left;
+	}
+	.familyImage{
+		width: 400px;
+		height: 325px;
+		float: left;
+		border-radius: 8px;
+	}
+	.serveAmount{
+		font-size: 20px;
+	    float: right;
+	    width: 947px;
+	    margin-left: 5px;
+	    margin-top: 5px;
+	    margin-bottom: 5px;
+	}
+	.familySummary{
+		width: 950px;
+		float: right;
+		text-align: justify;
+	}
+	.familyTitle{
+		font-size: 20px;
+	    margin: 5px 0 0 5px;
+	}
+	.familyRecipeSummary{
+		font-size: 15px;
+		margin: 5px 0 0 5px;
+	}
+
+	.familyIngredients{
+		width: 951px;
+		height: 230px;
+	    display: inline-flex;
+	    margin-top: -5px;
+	}
+	.familyIngredients2{
+		width: 951px;
+		height: 250px;
+	    display: inline-flex;
+	    margin-top: -5px;
+	}
+	.familyIngredient{
+		width: 200px;
+		margin-left: 10px;
+	}
+	.familyIngredientTitle{
+		font-size: 17px;
+	    margin: 5px;
+	    text-decoration: underline;
+	}
+	.familyEachIngredient{
+		font-size: 15px;
+		margin: 5px;
+	}
+	.ovenTemp{
+		margin: 5px;
+	    text-align: center;
+	    text-decoration: underline;
+	    font-size: 18px;
+	}
+	.familyDirections{
+		width: 1000px;
+		margin: auto;
+		border-bottom: 1px solid #ccc;
+	}
+	.familyDirection{
+		text-align: justify;
+	}
+	.familyDirectionTitle{
+		font-size: 20px;
+		margin: 5px;
+	}
+	.familyDirectionSummary{
+		font-size: 15px;
+		margin: 5px;
+	}
+
+  }
+
+@media only screen 
+  and (min-device-width: 922px)  
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	#familyContainer{
+
+	}
+	.familyRecipeContainer{
+		width: 1360px;
+		height: 740px;
+		margin: auto;
+		margin-top: 20px;
+	}
+	.familyRecipeContainer2{
+		width: 1360px;
+		height: 919px;
+		margin: auto;
+		margin-top: 70px;
+	}
+	.familyPhoto{
+		width: 400px;
+		height: 325px;
+		float: left;
+	}
+	.familyImage{
+		width: 400px;
+		height: 325px;
+		float: left;
+		border-radius: 8px;
+	}
+	.serveAmount{
+		font-size: 20px;
+	    float: right;
+	    width: 947px;
+	    margin-left: 5px;
+	    margin-top: 5px;
+	    margin-bottom: 5px;
+	}
+	.familySummary{
+		width: 950px;
+		float: right;
+		text-align: justify;
+	}
+	.familyTitle{
+		font-size: 20px;
+	    margin: 5px 0 0 5px;
+	}
+	.familyRecipeSummary{
+		font-size: 15px;
+		margin: 5px 0 0 5px;
+	}
+
+	.familyIngredients{
+		width: 951px;
+		height: 230px;
+	    display: inline-flex;
+	    margin-top: -5px;
+	}
+	.familyIngredients2{
+		width: 951px;
+		height: 250px;
+	    display: inline-flex;
+	    margin-top: -5px;
+	}
+	.familyIngredient{
+		width: 200px;
+		margin-left: 10px;
+	}
+	.familyIngredientTitle{
+		font-size: 17px;
+	    margin: 5px;
+	    text-decoration: underline;
+	}
+	.familyEachIngredient{
+		font-size: 15px;
+		margin: 5px;
+	}
+	.ovenTemp{
+		margin: 5px;
+	    text-align: center;
+	    text-decoration: underline;
+	    font-size: 18px;
+	}
+	.familyDirections{
+		width: 1000px;
+		margin: auto;
+		border-bottom: 1px solid #ccc;
+	}
+	.familyDirection{
+		text-align: justify;
+	}
+	.familyDirectionTitle{
+		font-size: 20px;
+		margin: 5px;
+	}
+	.familyDirectionSummary{
+		font-size: 15px;
+		margin: 5px;
+	}
+
+  }
+

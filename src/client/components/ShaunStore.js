@@ -14,16 +14,15 @@ export default React.createClass({
         <div className="bookContainer">
           <a href="https://www.amazon.com/My-Modern-American-Table-Masterchef/dp/1419724002/ref=sr_1_fkmr0_1?s=books&ie=UTF8&qid=1484763141&sr=1-1-fkmr0&keywords=shaun+oneale+cookbook">
             <div className="cookBook1">
-              <h3 className="pre">Order Now</h3>
-              <img className="bookPhoto" src={Book}/>
-              <p className="title">My Modern American Table: Recipes for Inspired Home Cooks</p>
-              <p className="date">Available May 9th 2017</p>
+              <h3 className="pre1">Order Now</h3>
+              <img className="bookPhoto1" src={Book}/>
+              <p className="title1">My Modern American Table: Recipes for Inspired Home Cooks</p>
             </div>
           </a>
           <div className="cookBook2">
-            <h3 className="pre">Get Your Autographed Copy</h3>
+            <h3 className="pre1">Get Your Autographed Copy</h3>
             <img className="bookPhoto2" src={Book}/>
-            <p className="title">My Modern American Table: Recipes for Inspired Home Cooks</p>
+            <p className="title1">My Modern American Table: Recipes for Inspired Home Cooks</p>
             <p className="price1">$40</p><p className="shipping">Shipping only in the Continental U.S.</p>
             <div className="payButton"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick"/>
