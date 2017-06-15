@@ -98,19 +98,24 @@
 		display: block;
 	    list-style-type: none;
 	    padding-left: 0;
-	    font-size: 55px;
-	    width: 250px;
-	    height: 350px;
+	    font-size: 80px;
+	    width: 500px;
+	    height: 700px;
 	    color: white;
 	    background-color: #959494;
 	    position: fixed;
 	    right: 0px;
-	    top: 46px;
+	    top: 20px;
 	    text-align: center;
 	    float: right;
 	}
 	.m_navbar_closed {
 		display: none;
+	}
+	.navLi{
+		margin-top: 40px;
+		border-bottom: 1px solid black;
+		height: 99px;
 	}
   }
 

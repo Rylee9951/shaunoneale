@@ -59,19 +59,19 @@ export default React.createClass({
           <div>
             <ul className={className} onClick={this.toggleDropdown}>
               <Link to="/">
-                <li>Home</li>
+                <li className="navLi">Home</li>
               </Link>
               <Link to="/blog">
-                <li>Blog</li>
+                <li className="navLi">Blog</li>
               </Link>
               <Link to="/recipes">
-                <li>Recipes</li>
+                <li className="navLi">Recipes</li>
               </Link>
               <Link to="/store">
-                <li>Store</li>
+                <li className="navLi">Store</li>
               </Link>
               <Link to="/contact">
-                <li>Contact</li>
+                <li className="navLi">Contact</li>
               </Link>
             </ul>
           </div>

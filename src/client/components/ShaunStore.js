@@ -27,8 +27,8 @@ export default React.createClass({
             <div className="payButton"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick"/>
 <input type="hidden" name="hosted_button_id" value="3KX343BJPXFC6"/>
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+<input className="bookButton" type="image" src="http://www.clker.com/cliparts/H/A/2/Q/K/e/pay-now-button-hi.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="3" height="2"/>
 </form>
 </div>
           </div>
@@ -59,7 +59,7 @@ export default React.createClass({
                   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick"/>
                     <input type="hidden" name="hosted_button_id" value="XF8KTRJYYUEQY"/>
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+                    <input className="mHatButton" type="image" src="http://www.clker.com/cliparts/H/A/2/Q/K/e/pay-now-button-hi.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
                   </form>
                 </div>
@@ -76,7 +76,7 @@ export default React.createClass({
                   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick"/>
                     <input type="hidden" name="hosted_button_id" value="GGEGKL57JL4SS"/>
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+                    <input className="wHatButton" type="image" src="http://www.clker.com/cliparts/H/A/2/Q/K/e/pay-now-button-hi.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
                   </form>
                 </div>

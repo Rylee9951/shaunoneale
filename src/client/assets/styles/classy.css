@@ -7,106 +7,98 @@
 	}
 	.classyRecipeContainer{
 		width: 1360px;
-		height: 1085px;
 		margin: auto;
 		margin-top: 20px;
 	}
 	.classyRecipeContainer2{
 		width: 1360px;
-		height: 868px;
 		margin: auto;
 		margin-top: 70px;
 	}
 	.classyRecipeContainer3{
 		width: 1360px;
-		height: 1274px;
 		margin: auto;
 		margin-top: 70px;
 	}
 	.classyPhoto{
-		width: 400px;
-		height: 325px;
-		float: left;
+		width: 800px;
+	    height: 725px;
+	    margin: auto;
 	}
 	.classyImage{
-		width: 400px;
-		height: 325px;
-		float: left;
-		border-radius: 8px;
+		width: 800px;
+	    height: 725px;
+	    float: left;
+	    border-radius: 8px;
 	}
 	.serveAmount{
-		font-size: 20px;
-	    float: right;
-	    width: 947px;
+		font-size: 55px;
+	    width: 1400px;
 	    margin-left: 5px;
 	    margin-top: 5px;
+	    text-align: center;
 	    margin-bottom: 5px;
 	}
 	.classySummary{
-		width: 950px;
-		float: right;
-		text-align: justify;
+		width: 1200px;
+	    text-align: justify;
+	    margin: auto;
 	}
 	.classyTitle{
-		font-size: 20px;
+		font-size: 55px;
 	    margin: 5px 0 0 5px;
 	}
 	.classyRecipeSummary{
-		font-size: 15px;
+		font-size: 50px;
 		margin: 5px 0 0 5px;
 	}
 
 	.classyIngredients{
-		width: 951px;
-		height: 415px;
-	    display: inline-flex;
-	    margin-top: -5px;
+		width: 1200px;
+	    margin: auto;
 	}
 	.classyIngredients2{
-		width: 951px;
-		height: 380px;
-	    display: inline-flex;
-	    margin-top: -5px;
+		width: 1200px;
+	    margin: auto;
 	}
 	.classyIngredients3{
-		width: 951px;
-		height: 330px;
-	    display: inline-flex;
-	    margin-top: -5px;
+		width: 1200px;
+	    margin: auto;
 	}
 	.classyIngredient{
-		width: 200px;
-		margin-left: 10px;
+		width: 1200px;
+	    margin-top: 20px;
 	}
 	.classyIngredientTitle{
-		font-size: 17px;
+		font-size: 55px;
 	    margin: 5px;
 	    text-decoration: underline;
 	}
 	.classyEachIngredient{
-		font-size: 15px;
+		font-size: 50px;
 		margin: 5px;
 	}
 	.ovenTemp{
 		margin: 5px;
 	    text-align: center;
 	    text-decoration: underline;
-	    font-size: 18px;
+	    font-size: 50px;
 	}
 	.classyDirections{
-		width: 1000px;
+		width: 1200px;
 		margin: auto;
 		border-bottom: 1px solid #ccc;
 	}
 	.classyDirection{
 		text-align: justify;
+		margin-top: 20px;
 	}
 	.classyDirectionTitle{
-		font-size: 20px;
+		font-size: 55px;
 		margin: 5px;
 	}
 	.classyDirectionSummary{
-		font-size: 15px;
+		font-size: 50px;
 		margin: 5px;
 	}
 
@@ -121,19 +113,16 @@
 	}
 	.classyRecipeContainer{
 		width: 1360px;
-		height: 1085px;
 		margin: auto;
 		margin-top: 20px;
 	}
 	.classyRecipeContainer2{
 		width: 1360px;
-		height: 868px;
 		margin: auto;
 		margin-top: 70px;
 	}
 	.classyRecipeContainer3{
 		width: 1360px;
-		height: 1274px;
 		margin: auto;
 		margin-top: 70px;
 	}
@@ -149,7 +138,7 @@
 		border-radius: 8px;
 	}
 	.serveAmount{
-		font-size: 20px;
+		font-size: 25px;
 	    float: right;
 	    width: 947px;
 	    margin-left: 5px;
@@ -162,29 +151,26 @@
 		text-align: justify;
 	}
 	.classyTitle{
-		font-size: 20px;
+		font-size: 25px;
 	    margin: 5px 0 0 5px;
 	}
 	.classyRecipeSummary{
-		font-size: 15px;
+		font-size: 20px;
 		margin: 5px 0 0 5px;
 	}
 
 	.classyIngredients{
 		width: 951px;
-		height: 415px;
 	    display: inline-flex;
 	    margin-top: -5px;
 	}
 	.classyIngredients2{
 		width: 951px;
-		height: 380px;
 	    display: inline-flex;
 	    margin-top: -5px;
 	}
 	.classyIngredients3{
 		width: 951px;
-		height: 330px;
 	    display: inline-flex;
 	    margin-top: -5px;
 	}
@@ -193,19 +179,19 @@
 		margin-left: 10px;
 	}
 	.classyIngredientTitle{
-		font-size: 17px;
+		font-size: 25px;
 	    margin: 5px;
 	    text-decoration: underline;
 	}
 	.classyEachIngredient{
-		font-size: 15px;
+		font-size: 20px;
 		margin: 5px;
 	}
 	.ovenTemp{
 		margin: 5px;
 	    text-align: center;
 	    text-decoration: underline;
-	    font-size: 18px;
+	    font-size: 20px;
 	}
 	.classyDirections{
 		width: 1000px;
@@ -216,11 +202,11 @@
 		text-align: justify;
 	}
 	.classyDirectionTitle{
-		font-size: 20px;
+		font-size: 25px;
 		margin: 5px;
 	}
 	.classyDirectionSummary{
-		font-size: 15px;
+		font-size: 20px;
 		margin: 5px;
 	}
 

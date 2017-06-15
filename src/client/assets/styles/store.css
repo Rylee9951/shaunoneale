@@ -3,107 +3,108 @@
   and (max-device-width: 620px) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .bookContainer{
-    width: 1000px;
-    margin: auto;
-    height: 410px;
-    margin-top: 30px;
+        width: 1400px;
+        margin: auto;
+        margin-top: 30px;
     }
     .cookBook1{
-        width: 396px;
-        height: 406px;
-        float: left;
+        width: 1230px;
+        margin: auto;
+        height: 1260px;
         border: 2px solid #ccc;
         border-radius: 20px;
         text-align: center;
         background-color: #F6E5C5;
     }
     .cookBook2{
-        width: 396px;
-        height: 406px;
-        float: right;
+        width: 1230px;
+        height: 1580px;
+        margin: auto;
+        margin-top: 40px;
         border: 2px solid #ccc;
         border-radius: 20px;
         text-align: center;
         background-color: #F6E5C5;
     }
     .bookPhoto1{
-        width: 220px;
-        height: 275px;
+        width: 800px;
+        height: 930px;
         margin-top: -5px;
     }
     .bookPhoto2{
-        width: 200px;
-        height: 240px;
+        width: 800px;
+        height: 930px;
         margin-top: -5px;
     }
     .pre1{
-        font-size: 25px;
+        font-size: 90px;
         margin: 10px 0 10px 0;
         font-family: 'BT Futura W01', Arial, sans-serif;
     }
     .title1{
-        font-size: 20px;
-        margin: -5px 0 0 0;
+        font-size: 78px;
+        margin: 20px 0 0 0;
         font-family: 'BT Futura W01', Arial, sans-serif;
     }
 
     .price1{
-        font-size: 25px;
+        font-size: 40px;
         margin: 5px;
         font-family: 'BT Futura W01', Arial, sans-serif;
     }
     .shipping{
         margin-top: -8px;
-        font-size: 9px;
+        font-size: 40px;
     }
 
     .pastaLessons{
-        width: 1000px;
-        height: 500px;
+        width: 1300px;
+        height: 800px;
         border: 5px solid #ccc;
         margin: auto;
         border-radius: 15px;
         margin-top: 30px;
-        background-image: url("../images/pastaBackground.png");
-        background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url("../images/pastaBackground.png");
+        background-image: url(../images/pastaBackground.png);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -400px -321px
-
+        background-position: -598px -425px;
     }
     .pastaTitle{
         float: left;
-        font-size: 30px;
+        font-size: 65px;
         border-bottom: 2px solid #ccc;
-        width: 600px;
-        height: 35px;
+        width: 700px;
+        height: 144px;
         text-transform: uppercase;
         text-align: center;
         font-family: 'BT Futura W01', Arial, sans-serif;
-        margin: 5px 0 0px 0;
+        margin: 0px 0 0px 0;
         color: white;
+        background-color: rgba(0, 0, 0, 0.4);
     }
     .pastaDescription{
         float: left;
-        font-size: 24px;
-        width: 540px;
-        height: 309px;
+        font-size: 51px;
+        width: 696px;
+        height: 362px;
         text-align: justify;
         font-family: 'BT Futura W01', Arial, sans-serif;
-        margin-left: 30px;
         color: white;
+        margin-top: -3px;
+        background-color: rgba(0, 0, 0, 0.4);
     }
     .pastaPayContainer{
-        width: 600px;
-        height: 102px;
+        width: 700px;
+        height: 214px;
         float: left;
+        margin-top: 31px;
     }
     .pastaAmount{
-        width: 296px;
-        height: 100px;
+        width: 280px;
+        height: 210px;
         border: 1px solid #ccc;
         float: left;
-        font-size: 50px;
+        font-size: 91px;
         text-align: center;
         color: white;
         font-family: 'BT Futura W01', Arial, sans-serif;
@@ -113,10 +114,10 @@
         margin: 18px;
     }
     .pastaPay{
-        width: 301px;
-        height: 100px;
+        width: 417px;
+        height: 210px;
         border: 1px solid #ccc;
-        font-size: 30px;
+        font-size: 55px;
         text-align: center;
         float: right;
         border-right: none;
@@ -131,21 +132,21 @@
         margin-top: 0;
     }
     .pastaLessonPhoto{
-        width: 400px;
+        width: 600px;
+        height: 800px;
         border-radius: 0 10px 10px 0;
     }
     .pastaButton{
         margin-top: 25px;
     }
     .sellingContainer{
-        width: 631px;
+        width: 1000px;
         margin: auto;
         margin-top: 40px;
         margin-bottom: 40px;
     }
     .selling{
-        width: 631px;
-        display: inline-flex;
+        width: 1000px;
     }
     .description{
         margin-top: 0;
@@ -153,48 +154,48 @@
         padding: 1px;
     }
     .mHat{
-        width: 250px;
-        height: 350px;
+        width: 1000px;
+        height: 1200px;
         border: 3px solid #ccc;
         border-radius: 8px;
         margin-right: 118px;
         background-color: #F6E5C5;
     }
     .mens{
-        width: 250px;
-        height: 250px;
+        width: 1000px;
+        height: 1000px;
         transform: rotate(90deg);
         border-radius: 5px 0 0 5px;
 
     }
     .mHatDescription{
-        width: 250px;
-        height: 50px;
+        width: 1000px;
+        height: 100px;
         color: black;
-        font-size: 13px;
+        font-size: 40px;
 
     }
     .mHatPayContainer{
-        width: 250;
-        height: 50px;
+        width: 1000px;
+        height: 100px;
     }
     .mHatAmount{
-        width: 125px;
-        height: 50px;
+        width: 500px;
+        height: 100px;
         border: 1px solid #ccc;
         float: left;
-        font-size: 15px;
+        font-size: 52px;
         text-align: center;
         color: black;
         font-family: 'BT Futura W01', Arial, sans-serif;
         margin-top: -5px;
     }
     .mHath3Amount{
-
+        margin-top: 14px;
     }
     .mHatPay{
-        width: 121px;
-        height: 50px;
+        width: 496px;
+        height: 100px;
         border: 1px solid #ccc;
         font-size: 15px;
         text-align: center;
@@ -204,47 +205,52 @@
         margin-top: -5px;
         line-height: 4;
     }
+    .mHatButton{
+        width: 360px;
+        margin-top: 6px;
+    }
     .wHat{
-        width: 250px;
-        height: 350px;
+        width: 1000px;
+        height: 1200px;
         border: 3px solid #ccc;
         border-radius: 8px;
         margin-right: 118px;
         background-color: #F6E5C5;
+        margin-top: 40px;
     }
     .womens{
-        width: 250px;
-        height: 250px;
-        -webkit-transform: rotate(90deg);
+        width: 1000px;
+        height: 1000px;
         border-radius: 5px 0 0 5px;
+        -webkit-transform: rotate(90deg);
     }
     .wHatDescription{
-        width: 250px;
-        height: 50px;
+        width: 1000px;
+        height: 100px;
         color: black;
-        font-size: 13px;
+        font-size: 40px;
     }
     .wHatPayContainer{
-        width: 250;
-        height: 50px;
+        width: 1000px;
+        height: 100px;
     }
     .wHatAmount{
-        width: 125px;
-        height: 50px;
+        width: 500px;
+        height: 100px;
         border: 1px solid #ccc;
         float: left;
-        font-size: 15px;
+        font-size: 52px;
         text-align: center;
         color: black;
         font-family: 'BT Futura W01', Arial, sans-serif;
         margin-top: -5px;
     }
     .wHath3Amount{
-
+        margin-top: 14px;
     }
     .wHatPay{
-        width: 121px;
-        height: 50px;
+        width: 496px;
+        height: 100px;
         border: 1px solid #ccc;
         font-size: 15px;
         text-align: center;
@@ -253,6 +259,10 @@
         font-family: 'BT Futura W01', Arial, sans-serif;
         margin-top: -5px;
         line-height: 4;
+    }
+    .wHatButton{
+        width: 360px;
+        margin-top: 6px;
     }
 
 }
@@ -261,14 +271,14 @@
   and (max-device-width: 921px) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .bookContainer{
-    width: 1000px;
-    margin: auto;
-    height: 410px;
-    margin-top: 30px;
+        width: 1000px;
+        margin: auto;
+        height: 410px;
+        margin-top: 30px;
     }
     .cookBook1{
-        width: 396px;
-        height: 406px;
+        width: 450px;
+        height: 490px;
         float: left;
         border: 2px solid #ccc;
         border-radius: 20px;
@@ -276,8 +286,8 @@
         background-color: #F6E5C5;
     }
     .cookBook2{
-        width: 396px;
-        height: 406px;
+        width: 450px;
+        height: 490px;
         float: right;
         border: 2px solid #ccc;
         border-radius: 20px;
@@ -285,8 +295,8 @@
         background-color: #F6E5C5;
     }
     .bookPhoto1{
-        width: 220px;
-        height: 275px;
+        width: 290px;
+        height: 360px;
         margin-top: -5px;
     }
     .bookPhoto2{
@@ -295,33 +305,36 @@
         margin-top: -5px;
     }
     .pre1{
-        font-size: 25px;
+        font-size: 32px;
         margin: 10px 0 10px 0;
         font-family: 'BT Futura W01', Arial, sans-serif;
     }
     .title1{
-        font-size: 20px;
+        font-size: 29px;
         margin: -5px 0 0 0;
         font-family: 'BT Futura W01', Arial, sans-serif;
     }
 
     .price1{
-        font-size: 25px;
+        font-size: 40px;
         margin: 5px;
         font-family: 'BT Futura W01', Arial, sans-serif;
     }
     .shipping{
         margin-top: -8px;
-        font-size: 9px;
+        font-size: 24px;
     }
-
+    .bookButton{
+        width: 180px;
+        margin-top: -18px;
+    }
     .pastaLessons{
         width: 1000px;
         height: 500px;
         border: 5px solid #ccc;
         margin: auto;
         border-radius: 15px;
-        margin-top: 30px;
+        margin-top: 110px;
         background-image: url("../images/pastaBackground.png");
         background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url("../images/pastaBackground.png");
         background-size: cover;
@@ -396,13 +409,13 @@
         margin-top: 25px;
     }
     .sellingContainer{
-        width: 631px;
+        width: 1100px;
         margin: auto;
         margin-top: 40px;
         margin-bottom: 40px;
     }
     .selling{
-        width: 631px;
+        width: 1100px;
         display: inline-flex;
     }
     .description{
@@ -411,48 +424,49 @@
         padding: 1px;
     }
     .mHat{
-        width: 250px;
-        height: 350px;
+        width: 500px;
+        height: 700px;
         border: 3px solid #ccc;
         border-radius: 8px;
         margin-right: 118px;
         background-color: #F6E5C5;
     }
     .mens{
-        width: 250px;
-        height: 250px;
+        width: 500px;
+        height: 500px;
         transform: rotate(90deg);
         border-radius: 5px 0 0 5px;
 
     }
     .mHatDescription{
-        width: 250px;
-        height: 50px;
+        width: 500px;
+        height: 69px;
         color: black;
-        font-size: 13px;
+        font-size: 25px;
 
     }
     .mHatPayContainer{
-        width: 250;
-        height: 50px;
+        width: 500px;
+        height: 100px;
+        margin-top: 30px;
     }
     .mHatAmount{
-        width: 125px;
-        height: 50px;
+        width: 240px;
+        height: 100px;
         border: 1px solid #ccc;
         float: left;
-        font-size: 15px;
+        font-size: 44px;
         text-align: center;
         color: black;
         font-family: 'BT Futura W01', Arial, sans-serif;
-        margin-top: -5px;
+        margin-top: -7px;
     }
     .mHath3Amount{
-
+        margin-top: 20px;
     }
     .mHatPay{
-        width: 121px;
-        height: 50px;
+        width: 256px;
+        height: 100px;
         border: 1px solid #ccc;
         font-size: 15px;
         text-align: center;
@@ -462,47 +476,52 @@
         margin-top: -5px;
         line-height: 4;
     }
+    .mHatButton{
+        width: 215px;
+        margin-top: 20px;
+    }
     .wHat{
-        width: 250px;
-        height: 350px;
+        width: 500px;
+        height: 700px;
         border: 3px solid #ccc;
         border-radius: 8px;
         margin-right: 118px;
         background-color: #F6E5C5;
     }
     .womens{
-        width: 250px;
-        height: 250px;
+        width: 500px;
+        height: 500px;
         -webkit-transform: rotate(90deg);
         border-radius: 5px 0 0 5px;
     }
     .wHatDescription{
-        width: 250px;
-        height: 50px;
+        width: 500px;
+        height: 69px;
         color: black;
-        font-size: 13px;
+        font-size: 25px;
     }
     .wHatPayContainer{
-        width: 250;
-        height: 50px;
+        width: 500px;
+        height: 100px;
+        margin-top: 30px;
     }
     .wHatAmount{
-        width: 125px;
-        height: 50px;
+        width: 240px;
+        height: 100px;
         border: 1px solid #ccc;
         float: left;
-        font-size: 15px;
+        font-size: 44px;
         text-align: center;
         color: black;
         font-family: 'BT Futura W01', Arial, sans-serif;
-        margin-top: -5px;
+        margin-top: -7px;
     }
     .wHath3Amount{
-
+        margin-top: 20px;
     }
     .wHatPay{
-        width: 121px;
-        height: 50px;
+        width: 256px;
+        height: 100px;
         border: 1px solid #ccc;
         font-size: 15px;
         text-align: center;
@@ -511,6 +530,10 @@
         font-family: 'BT Futura W01', Arial, sans-serif;
         margin-top: -5px;
         line-height: 4;
+    }
+    .wHatButton{
+        width: 215px;
+        margin-top: 20px;
     }
   }
   @media only screen 
@@ -570,7 +593,10 @@
         margin-top: -8px;
         font-size: 9px;
     }
-
+    .bookButton{
+        width: 117px;
+        margin-top: -4px;
+    }
     .pastaLessons{
         width: 1000px;
         height: 500px;
@@ -718,6 +744,9 @@
         margin-top: -5px;
         line-height: 4;
     }
+    .mHatButton{
+        width: 100px;
+    }
     .wHat{
         width: 250px;
         height: 350px;
@@ -767,6 +796,9 @@
         font-family: 'BT Futura W01', Arial, sans-serif;
         margin-top: -5px;
         line-height: 4;
+    }
+    .wHatButton{
+        width: 100px;
     }
   }
 

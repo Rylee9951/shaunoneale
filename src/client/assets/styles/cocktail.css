@@ -7,71 +7,67 @@
 	}
 	.cocktailRecipeContainer{
 		width: 1200px;
-		height: 400px;
 		margin: auto;
 		margin-top: 20px;
 	}
 	.cocktailPhoto{
-		width: 300px;
-		height: 400px;
-		float: left;
+		width: 630px;
+		height: 800px;
+		margin: auto;
 	}
 	.cocktailImage{
-		width: 300px;
-		height: 400px;
-		float: left;
+		width: 630px;
+		height: 800px;
 		border-radius: 8px;
 	}
 	.summary{
-		width: 900px;
-		float: right;
+		width: 1200px;
 		text-align: justify;
+		margin: auto;
 	}
 	.coctailTitle{
-		font-size: 20px;
+		font-size: 55px;
 	    margin: 5px 0 0 5px;
 	}
 	.cocktailSummary{
-		font-size: 15px;
+		font-size: 50px;
 		margin: 5px 0 0 5px;
 	}
 	.ingredients{
-		width: 900px;
-	    display: inline-flex;
-	    margin-top: -5px;
+		width: 1200px;
+	    margin: auto;
 	}
 	.drinkAmount{
-		font-size: 20px;
-	    float: right;
-	    width: 895px;
+		font-size: 55px;
+	    width: 1200px;
 	    margin-left: 5px;
 	    margin-top: 5px;
 	    margin-bottom: 5px;
+	    text-align: center;
 	}
 	.ingredient{
-		width: 180px;
-		margin-left: 10px;
+		width: 1200px;
+	    margin-top: 20px;
 	}
 	.ingredientTitle{
-		font-size: 17px;
+		font-size: 55px;
 	    margin: 5px;
 	    text-decoration: underline;
 	}
 	.eachIngredient{
-		font-size: 15px;
+		font-size: 50px;
 		margin: 5px;
 	}
 	.directions{
-		width: 900px;
-		float: right;
-		text-align: justify;
+		width: 1200px;
+		margin: auto;
 	}
 	.directionsTitle{
-		font-size: 20px;
+		font-size: 55px;
 		margin: 5px;
 	}
 	.directionsSummary{
-		font-size: 15px;
+		font-size: 50px;
 		margin: 5px;
 	}
 
@@ -86,7 +82,7 @@
 	}
 	.cocktailRecipeContainer{
 		width: 1200px;
-		height: 400px;
+		height: 620px;
 		margin: auto;
 		margin-top: 20px;
 	}
@@ -107,11 +103,11 @@
 		text-align: justify;
 	}
 	.coctailTitle{
-		font-size: 20px;
+		font-size: 25px;
 	    margin: 5px 0 0 5px;
 	}
 	.cocktailSummary{
-		font-size: 15px;
+		font-size: 20px;
 		margin: 5px 0 0 5px;
 	}
 	.ingredients{
@@ -120,7 +116,7 @@
 	    margin-top: -5px;
 	}
 	.drinkAmount{
-		font-size: 20px;
+		font-size: 25px;
 	    float: right;
 	    width: 895px;
 	    margin-left: 5px;
@@ -132,12 +128,12 @@
 		margin-left: 10px;
 	}
 	.ingredientTitle{
-		font-size: 17px;
+		font-size: 25px;
 	    margin: 5px;
 	    text-decoration: underline;
 	}
 	.eachIngredient{
-		font-size: 15px;
+		font-size: 20px;
 		margin: 5px;
 	}
 	.directions{
@@ -146,11 +142,11 @@
 		text-align: justify;
 	}
 	.directionsTitle{
-		font-size: 20px;
+		font-size: 25px;
 		margin: 5px;
 	}
 	.directionsSummary{
-		font-size: 15px;
+		font-size: 20px;
 		margin: 5px;
 	}
 
