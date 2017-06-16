@@ -4,6 +4,7 @@ import 'assets/styles/classy.css'
 import Classy1 from 'assets/images/classy1.png'
 import Classy2 from 'assets/images/classy2.png'
 import Classy3 from 'assets/images/classy3.png'
+import Classy4 from 'assets/images/classy4.png'
 
 export default React.createClass({
   render: function (){
@@ -136,30 +137,88 @@ export default React.createClass({
               <p className="classyEachIngredient">Butter poached lobster claw meat<br/>Micro cilantro greens<br/>Micro chives<br/>Bulls blood micro greens<br/>Shaved Parmesan</p>
             </div>
           </div>
+            <div className="classyDirections">
+              <div className="classyDirection">
+                <h3 className="classyDirectionTitle">To make the Lobster Filling:</h3>
+                <p className="classyDirectionSummary">Place the roughly chopped lobster meat in a medium bowl. Add the mascarpone, egg, flour, tarragon, chives lemon zest and juice and mix lightly to combine, taking care not to break the lobster meat apart. Season with salt and pepper. Cover the bowl with plastic wrap and place the filling in the refrigerator until you are ready to stuff the ravioli.</p>
+              </div>
+              <div className="classyDirection">
+                <h3 className="classyDirectionTitle">To make the Dough:</h3>
+                <p className="classyDirectionSummary">Combine the all-purpose flour, whole eggs, egg yolks, and salt in the bowl of a food processor fitted with the blade and pulse until combined. Add the squid ink and the cold water and pulse until mixture looks like wet sand and holds its shape when formed into a small ball. If the dough seems too sticky, add a bit more flour. If the dough is too dry, add another teaspoon of water, pulse again, and check. Continue adding 1 teaspoon of water at a time until you reach the correct consistency. Move the dough to a floured surface and knead until the dough is smooth, solid, and elastic, 2 to 3 minutes. Tightly wrap the dough in plastic wrap and leave it on the counter to rest for 1 hour, or refrigerate it for up to 1 day (take it out of the refrigerator to rest, covered, at room temperature for 1 hour before you roll it out).<br/>Line a baking sheet with parchment paper and sprinkle it generously with semolina flour. Lightly dust the work surface with semolina flour. Cut off one quarter of the dough and wrap the remaining dough in plastic wrap. Dust the dough lightly with flour and flatten it out with your hands into a rectangle. Roll the pasta through the thickest setting of your pasta machine twice, continuing to flour the dough to prevent sticking as needed. Set the machine to the next lowest setting and repeat. Continue to roll the pasta until it is very thin, ideally thin enough to see through it. If the pasta becomes too long to handle, cut it in half. Once the pasta sheet is rolled out, dust it lightly with semolina flour, set it onto a baking sheet, and cover with a slightly dampened clean kitchen towel. Repeat with the remaining dough, laying a sheet of plastic wrap between each finished pasta sheet before adding the next, ending with a damp towel on top.</p>
+              </div>
+              <div className="classyDirection">
+                <h3 className="classyDirectionTitle">To Fill the Ravioli:</h3>
+                <p className="classyDirectionSummary">Line a baking sheet with parchment paper and dust with semolina flour. Lay one pasta sheet onto your work surface and scoop 1 tablespoon of filling in two rows down the pasta sheet, setting them diagonally in a zigzag-like pattern and leaving 1 inch of space around each mound of filling. Dip your finger in a small bowl of water and run your finger around the edges of the filling to help the pasta stick together. Place a second sheet of pasta on top of the filling, very gently stretching the dough to reach and meet the edges of the bottom pasta sheet. Carefully work your way down the sheet and around each ravioli, sealing in the filling as you go. It is important to get out all of the air in the filling pocket so the ravioli don’t explode when cooking. Using a 3-inch round cutter or a ravioli stamp, cut the ravioli and place them onto the baking sheet. Cover with plastic wrap and place in the refrigerator until ready to cook.</p>
+              </div>
+              <div className="classyDirection">
+                <h3 className="classyDirectionTitle">To make the Lobster Reduction:</h3>
+                <p className="classyDirectionSummary">Heat the oil in a large skillet over medium heat. Add the carrots and celery and cook for 2 minutes, or until they begin to soften. Add the shallots and garlic and cook, stirring frequently, for 2 minutes, or until the vegetables are translucent and lightly colored. Pour in the Pernod and carefully ignite it with a stick lighter. When the flame has died out, add the shellfish stock, increase the heat to medium-high, and bring to a boil. Cook until the liquid is reduced by half, about 8 minutes. Strain the reduction through a fine-mesh strainer, wipe out the skillet of any solids, and return the reduction to the pan. Place over medium-high heat, bring to a boil, and cook for 3 minutes, or until the liquid lightly coats the back of a spoon. Turn off the heat and whisk in the butter 1 tablespoon at a time. Transfer the sauce to a squeeze bottle and set aside for plating.</p>
+              </div>
+              <div className="classyDirection">
+                <h3 className="classyDirectionTitle">To Cook the Ravioli:</h3>
+                <p className="classyDirectionSummary">Place a large pot of water over high heat and bring to a rolling boil. Salt the water. Add 10 ravioli and cook for 2 minutes, or until the ravioli begin to float. While the ravioli are cooking, reheat the cream sauce over low heat until simmering. Add the ravioli to the skillet along with 2 teaspoons of the pasta cooking liquid and cook, basting for 1 minute to lightly coat the pasta, then use a slotted spoon to remove them from the skillet to plates. Spoon a little of the sauce over the ravioli. Repeat with the remaining ravioli.</p>
+              </div>
+              <div className="classyDirection">
+                <h3 className="classyDirectionTitle">To make the Demo Air:</h3>
+                <p className="classyDirectionSummary">In a medium sauce pot over medium high heat bring the heavy cream and lemon zest to a light simmer an hold at a simmer for 10 minutes, remove from heat and allow to steep for 30 minutes. Bring back to a simmer and season with salt to taste. Add the soy lecithin powder and whisk well. Transfer to a high sided bowl and using an emersion blender foam the liquid to create firm air bubbles. This must be done right before serving the dish.</p>
+              </div>
+            </div>
+          </div>
+          <div className="classyRecipeContainer4">
+          <div className="classyPhoto">
+            <img className="classyImage" src={Classy4}/>
+          </div>
+          <div className="classySummary">
+            <h3 className="classyTitle">Spicy Salmon Crudo</h3>
+            <p className="classyRecipeSummary"></p>
+          </div>
+          <h3 className="serveAmount">Serves 4 to 6</h3>
+          <div className="classyIngredients4">
+            <div className="classyIngredient">
+              <h3 className="classyIngredientTitle">Avocado Crema</h3>
+              <p className="classyEachIngredient">1 Avocado<br/>2 Limes<br/>1 1/2 cup crema mexicana<br/>1 tablespoon minced cilantro<br/>Salt and white pepper to taste</p>
+            </div>
+            <div className="classyIngredient">
+              <h3 className="classyIngredientTitle">Candied Zest</h3>
+              <p className="classyEachIngredient">Zest strips of 1 tangelo (2 tangerines)<br/>1/2 cup sugar<br/>1/2 water</p>
+            </div>
+            <div className="classyIngredient">
+              <h3 className="classyIngredientTitle">Tangelo (or Tangerine) Marinade</h3>
+              <p className="classyEachIngredient">1 Tangelo (2 tangerines), juiced<br/>1 tablespoon rice wine vinegar<br/>1 tablespoon honey<br/>1 teaspoon sriracha<br/>Salt and freshly ground black pepper to taste</p>
+            </div>
+            <div className="classyIngredient">
+              <h3 className="classyIngredientTitle">Salmon</h3>
+              <p className="classyEachIngredient">1 1/2 pounds high quality salmon (preferably sushi grade)</p>
+            </div>
+            <div className="classyIngredient">
+              <h3 className="classyIngredientTitle">Garnishes</h3>
+              <p className="classyEachIngredient">Curled scallions<br/>Micro cilantro or small cilantro leaves<br/>Thinly sliced Fresno Chile<br/>Thinly sliced radish<br/>Reserved caramel<br/>Black salt</p>
+            </div>
+          </div>
           <div className="classyDirections">
             <div className="classyDirection">
-              <h3 className="classyDirectionTitle">To make the Lobster Filling:</h3>
-              <p className="classyDirectionSummary">Place the roughly chopped lobster meat in a medium bowl. Add the mascarpone, egg, flour, tarragon, chives lemon zest and juice and mix lightly to combine, taking care not to break the lobster meat apart. Season with salt and pepper. Cover the bowl with plastic wrap and place the filling in the refrigerator until you are ready to stuff the ravioli.</p>
+              <h3 className="classyDirectionTitle">To make the Avocado Cream:</h3>
+              <p className="classyDirectionSummary">Open the avocado remove the seed and scrape the avocado into a blender, squeeze in the juice of two limes and blend on low just to get the mixture going. Add the crema mexicana, season with salt and white pepper and blend until mixture is smooth. Place in a squeeze bottle and place in the fridge until ready to plate.</p>
             </div>
             <div className="classyDirection">
-              <h3 className="classyDirectionTitle">To make the Dough:</h3>
-              <p className="classyDirectionSummary">Combine the all-purpose flour, whole eggs, egg yolks, and salt in the bowl of a food processor fitted with the blade and pulse until combined. Add the squid ink and the cold water and pulse until mixture looks like wet sand and holds its shape when formed into a small ball. If the dough seems too sticky, add a bit more flour. If the dough is too dry, add another teaspoon of water, pulse again, and check. Continue adding 1 teaspoon of water at a time until you reach the correct consistency. Move the dough to a floured surface and knead until the dough is smooth, solid, and elastic, 2 to 3 minutes. Tightly wrap the dough in plastic wrap and leave it on the counter to rest for 1 hour, or refrigerate it for up to 1 day (take it out of the refrigerator to rest, covered, at room temperature for 1 hour before you roll it out).<br/>Line a baking sheet with parchment paper and sprinkle it generously with semolina flour. Lightly dust the work surface with semolina flour. Cut off one quarter of the dough and wrap the remaining dough in plastic wrap. Dust the dough lightly with flour and flatten it out with your hands into a rectangle. Roll the pasta through the thickest setting of your pasta machine twice, continuing to flour the dough to prevent sticking as needed. Set the machine to the next lowest setting and repeat. Continue to roll the pasta until it is very thin, ideally thin enough to see through it. If the pasta becomes too long to handle, cut it in half. Once the pasta sheet is rolled out, dust it lightly with semolina flour, set it onto a baking sheet, and cover with a slightly dampened clean kitchen towel. Repeat with the remaining dough, laying a sheet of plastic wrap between each finished pasta sheet before adding the next, ending with a damp towel on top.</p>
+              <h3 className="classyDirectionTitle">To make the Candied Zest:</h3>
+              <p className="classyDirectionSummary">Using a strip zester remove long strips of zest from the citrus. In a small sauce pan add the water and sugar over medium high heat and whisk until the sugar has dissolved. Bring to a boil and allow to boil for about 3 to 5 minutes. Add the zest and stir, cook for between 45 seconds and 1 minute. Remove to a sheet pan lined with parchment paper and try to separate the zest as much as possible. Set aside until ready to plate. Continue to cook the caramel for two minutes, remove from heat and reserve for plating.</p>
             </div>
             <div className="classyDirection">
-              <h3 className="classyDirectionTitle">To Fill the Ravioli:</h3>
-              <p className="classyDirectionSummary">Line a baking sheet with parchment paper and dust with semolina flour. Lay one pasta sheet onto your work surface and scoop 1 tablespoon of filling in two rows down the pasta sheet, setting them diagonally in a zigzag-like pattern and leaving 1 inch of space around each mound of filling. Dip your finger in a small bowl of water and run your finger around the edges of the filling to help the pasta stick together. Place a second sheet of pasta on top of the filling, very gently stretching the dough to reach and meet the edges of the bottom pasta sheet. Carefully work your way down the sheet and around each ravioli, sealing in the filling as you go. It is important to get out all of the air in the filling pocket so the ravioli don’t explode when cooking. Using a 3-inch round cutter or a ravioli stamp, cut the ravioli and place them onto the baking sheet. Cover with plastic wrap and place in the refrigerator until ready to cook.</p>
+              <h3 className="classyDirectionTitle">To make the Citrus Marinade:</h3>
+              <p className="classyDirectionSummary">In a bowl add the citrus juice, rice wine vinegar, honey, sriracha, salt and pepper and whisk well to combine.</p>
             </div>
             <div className="classyDirection">
-              <h3 className="classyDirectionTitle">To make the Lobster Reduction:</h3>
-              <p className="classyDirectionSummary">Heat the oil in a large skillet over medium heat. Add the carrots and celery and cook for 2 minutes, or until they begin to soften. Add the shallots and garlic and cook, stirring frequently, for 2 minutes, or until the vegetables are translucent and lightly colored. Pour in the Pernod and carefully ignite it with a stick lighter. When the flame has died out, add the shellfish stock, increase the heat to medium-high, and bring to a boil. Cook until the liquid is reduced by half, about 8 minutes. Strain the reduction through a fine-mesh strainer, wipe out the skillet of any solids, and return the reduction to the pan. Place over medium-high heat, bring to a boil, and cook for 3 minutes, or until the liquid lightly coats the back of a spoon. Turn off the heat and whisk in the butter 1 tablespoon at a time. Transfer the sauce to a squeeze bottle and set aside for plating.</p>
+              <h3 className="classyDirectionTitle">To Marinade the Salmon:</h3>
+              <p className="classyDirectionSummary">Slice the salmon nigiri style about 1/8 inch thick and place on a sheet pan lined with parchment paper. Using a brush liberally add the marinade and cover loosely with plastic wrap. Place in the fridge for about 10 to 15 minutes to marinate.</p>
             </div>
             <div className="classyDirection">
-              <h3 className="classyDirectionTitle">To Cook the Ravioli:</h3>
-              <p className="classyDirectionSummary">Place a large pot of water over high heat and bring to a rolling boil. Salt the water. Add 10 ravioli and cook for 2 minutes, or until the ravioli begin to float. While the ravioli are cooking, reheat the cream sauce over low heat until simmering. Add the ravioli to the skillet along with 2 teaspoons of the pasta cooking liquid and cook, basting for 1 minute to lightly coat the pasta, then use a slotted spoon to remove them from the skillet to plates. Spoon a little of the sauce over the ravioli. Repeat with the remaining ravioli.</p>
+              <h3 className="classyDirectionTitle">To make the Garnishes:</h3>
+              <p className="classyDirectionSummary">Thinly julienne the green parts of the scallions about 1 inch long, place in a bowl of ice water and let curl for about 10 minutes. If using regular cilantro separate the smaller pretty leaves to use and set aside. Thinly slice the chile and the radish (slice the radish on a mandolin).</p>
             </div>
             <div className="classyDirection">
-              <h3 className="classyDirectionTitle">To make the Demo Air:</h3>
-              <p className="classyDirectionSummary">In a medium sauce pot over medium high heat bring the heavy cream and lemon zest to a light simmer an hold at a simmer for 10 minutes, remove from heat and allow to steep for 30 minutes. Bring back to a simmer and season with salt to taste. Add the soy lecithin powder and whisk well. Transfer to a high sided bowl and using an emersion blender foam the liquid to create firm air bubbles. This must be done right before serving the dish.</p>
+              <h3 className="classyDirectionTitle">To Plate:</h3>
+              <p className="classyDirectionSummary">Place the salmon on the plate curling the pieces over themselves to a tall strip of salmon on the plate. Drizzle with remaining marinade, place 5 or 7 strips of candied zest through the salmon. Squeeze 5 different size dots of the crema very tightly against the salmon. Garnish with the scallion, cilantro, radish and chile. Drizzle very lightly with the reserved caramel and finish with a sprinkle of black salt.</p>
             </div>
           </div>
         </div>

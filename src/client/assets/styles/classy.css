@@ -20,6 +20,11 @@
 		margin: auto;
 		margin-top: 70px;
 	}
+	.classyRecipeContainer4{
+		width: 1360px;
+		margin: auto;
+		margin-top: 70px;
+	}
 	.classyPhoto{
 		width: 800px;
 	    height: 725px;
@@ -62,6 +67,10 @@
 	    margin: auto;
 	}
 	.classyIngredients3{
+		width: 1200px;
+	    margin: auto;
+	}
+	.classyIngredients4{
 		width: 1200px;
 	    margin: auto;
 	}
@@ -126,6 +135,11 @@
 		margin: auto;
 		margin-top: 70px;
 	}
+	.classyRecipeContainer4{
+		width: 1360px;
+		margin: auto;
+		margin-top: 70px;
+	}
 	.classyPhoto{
 		width: 400px;
 		height: 325px;
@@ -170,6 +184,11 @@
 	    margin-top: -5px;
 	}
 	.classyIngredients3{
+		width: 951px;
+	    display: inline-flex;
+	    margin-top: -5px;
+	}
+	.classyIngredients4{
 		width: 951px;
 	    display: inline-flex;
 	    margin-top: -5px;
@@ -236,6 +255,12 @@
 		margin: auto;
 		margin-top: 70px;
 	}
+	.classyRecipeContainer4{
+		width: 1360px;
+		height: 900px;
+		margin: auto;
+		margin-top: 70px;
+	}
 	.classyPhoto{
 		width: 400px;
 		height: 325px;
@@ -284,6 +309,12 @@
 	.classyIngredients3{
 		width: 951px;
 		height: 330px;
+	    display: inline-flex;
+	    margin-top: -5px;
+	}
+	.classyIngredients4{
+		width: 951px;
+		height: 262px;
 	    display: inline-flex;
 	    margin-top: -5px;
 	}
