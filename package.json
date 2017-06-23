@@ -7,7 +7,8 @@
     "start": "gulp",
     "lint": "standard",
     "lint:fix": "standard --fix",
-    "deploy": "scp -r dist/* l0449946@djshaunoneale.com:/var/chroot/home/content/14/13754514/html/"
+    "deploy": "scp -r dist/* l0449946@djshaunoneale.com:/var/chroot/home/content/14/13754514/html/",
+    "deployfix": "ssh-keygen -f \"/Users/RyanLee/.ssh/known_hosts\" -R djshaunoneale.com"
   },
   "devDependencies": {
     "babel-core": "^6.7.6",

@@ -98,6 +98,10 @@
     .scheduleImage{
         width: 1350px;
     }
+    .scheduleTitle{
+        font-size: 50px;
+        text-align: center;
+    }
 
 }
 
@@ -201,6 +205,10 @@
     .scheduleImage{
         width: 1350px;
     }
+    .scheduleTitle{
+        font-size: 30px;
+        text-align: center;
+    }
 
 }
 
@@ -302,6 +310,10 @@
     }
     .scheduleImage{
         width: 1000px;
+    }
+    .scheduleTitle{
+        font-size: 25px;
+        text-align: center;
     }
 
 }
