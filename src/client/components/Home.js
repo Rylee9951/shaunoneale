@@ -7,6 +7,7 @@ import EatWith from 'assets/images/EatWithGraphic.png'
 import Schedule from 'assets/images/schedule.png'
 import Flyer1 from 'assets/images/flyer1.png'
 import Flyer2 from 'assets/images/flyer2.png'
+import Craftsy from 'assets/images/craftsy.png'
 //Tempory
 // import Under from 'assets/images/ucp.png'
 // import 'assets/styles/blog.css'
@@ -39,6 +40,11 @@ export default React.createClass({
         <div className="eatWithContainer">
           <a href="https://www.eatwith.com/profile/160729/">
             <img className="eatWithImage" src={EatWith}/>
+          </a>
+        </div>
+        <div className="scheduleContainer">
+          <a href="https://www.craftsy.com">
+            <img className="scheduleImage" src={Craftsy}/>
           </a>
         </div>
         <div className="scheduleContainer">
