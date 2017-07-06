@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 import 'assets/styles/classy.css'
 import Classy1 from 'assets/images/classy1.png'
-import Classy2 from 'assets/images/classy2.png'
+import Classy2 from 'assets/images/classy2.png'  
 import Classy3 from 'assets/images/classy3.png'
 import Classy4 from 'assets/images/classy4.png'
 

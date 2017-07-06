@@ -8,6 +8,7 @@ import Schedule from 'assets/images/schedule.png'
 import Flyer1 from 'assets/images/flyer1.png'
 import Flyer2 from 'assets/images/flyer2.png'
 import Craftsy from 'assets/images/craftsy.png'
+import UpcomingSchedule from 'assets/images/upcomingSchedule.png'
 //Tempory
 // import Under from 'assets/images/ucp.png'
 // import 'assets/styles/blog.css'
@@ -52,6 +53,10 @@ export default React.createClass({
         </div>
         <div className="scheduleContainer">
           <img className="scheduleImage" src={Flyer2}/>
+        </div>
+        <div className="scheduleContainer">
+          <h3 className= "scheduleTitle">My Upcoming Events</h3>
+          <img className="scheduleImage" src={UpcomingSchedule}/>
         </div>
         <div className="scheduleContainer">
           <h3 className= "scheduleTitle">My Past Events</h3>
