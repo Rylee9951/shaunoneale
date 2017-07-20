@@ -3,7 +3,7 @@
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 620px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+   {
   	#blogContainer{
   	width: 1000px;
   	margin: auto;
@@ -16,12 +16,25 @@
    .blogPara{
     font-size: 40px;
    }
+   .blog2{
+      
+   }
+   .paellaRecipe{
+      border: 1px solid black;
+      padding: 5px;
+      margin-top: 37px;
+      font-size: 40px;
+   }
+   .crowdImage{
+      width: 1000px;
+      margin-top: 20px;
+   }
   }
 
   @media only screen 
   and (min-device-width: 621px) 
   and (max-device-width: 921px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+   {
   	#blogContainer{
   	width: 1000px;
   	margin: auto;
@@ -34,11 +47,24 @@
    .blogPara{
     font-size: 25px;
    }
+   .blog2{
+      
+   }
+   .paellaRecipe{
+      border: 1px solid black;
+      padding: 5px;
+      margin-top: 37px;
+      font-size: 25px;
+   }
+   .crowdImage{
+      width: 1000px;
+      margin-top: 10px;
+   }
   }
 
   @media only screen 
   and (min-device-width: 922px)  
-  and (-webkit-min-device-pixel-ratio: 2) {
+  {
   	#blogContainer{
   	width: 1000px;
   	margin: auto;
@@ -50,6 +76,20 @@
    }
    .blogPara{
     font-size: 18px;
+   }
+   .blog2{
+      width: 500px;
+      float: left;
+   }
+   .paellaRecipe{
+      width: 470px;
+      float: right;
+      border: 1px solid #ccc;
+      padding: 5px;
+      margin-top: 37px;
+   }
+   .crowdImage{
+      width: 500px;
    }
   }
 

@@ -1,7 +1,7 @@
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 620px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+   {
   	#cocktailContainer{
 
 	}
@@ -76,7 +76,7 @@
 @media only screen 
   and (min-device-width: 621px) 
   and (max-device-width: 921px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+   {
   	#cocktailContainer{
 
 	}
@@ -154,7 +154,7 @@
 
 @media only screen 
   and (min-device-width: 922px)  
-  and (-webkit-min-device-pixel-ratio: 2) {
+   {
   	#cocktailContainer{
 
 	}
