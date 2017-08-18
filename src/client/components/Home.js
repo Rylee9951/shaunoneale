@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
+import ReactPlayer from 'react-player'
 import 'assets/styles/home.css'
 import Book from 'assets/images/bookCover.png'
 import Cruise from 'assets/images/MCCruisegraphic.png'
@@ -51,6 +52,10 @@ export default React.createClass({
         </div>
         <div className="scheduleContainer">
           <img className="scheduleImage" src={Disney}/>
+        </div>
+        <div className="videoContainer">
+          <h3 className="videoTitle">Gilroy Garlic Festival 2017</h3>
+          <ReactPlayer className="video" url='https://vimeo.com/230069477' playing />
         </div>
         <div className="scheduleContainer">
           <h3 className= "scheduleTitle">My Upcoming Events</h3>
