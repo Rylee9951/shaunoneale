@@ -1,0 +1,26 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 620px) 
+{}
+
+@media only screen 
+  and (min-device-width: 621px) 
+  and (max-device-width: 921px) 
+{}
+@media only screen 
+  and (min-device-width: 922px)  
+{
+   .eventScheduleContainer{
+        width: 1350px;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .eventScheduleImage{
+        width: 1350px;
+    }
+    .eventScheduleTitle{
+        font-size: 50px;
+        text-align: center;
+    } 
+}
+

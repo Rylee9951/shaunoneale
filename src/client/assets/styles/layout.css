@@ -53,7 +53,7 @@
 		display: none;
 	    font-size: 25px;
 	    font-family: Arial, sans-serif;
-	    margin: 0 0 0 100px;
+	    margin: 0 0 0 10px;
 	    text-transform: uppercase;
 	}
 	.nav{
@@ -100,7 +100,6 @@
 	    padding-left: 0;
 	    font-size: 80px;
 	    width: 500px;
-	    height: 700px;
 	    color: white;
 	    background-color: #959494;
 	    position: fixed;
@@ -170,7 +169,7 @@
 		display: inline-flex;
 	    font-size: 25px;
 	    font-family: Arial, sans-serif;
-	    margin: 0 0 0 100px;
+	    margin: 0 0 0 10px;
 	    text-transform: uppercase;
 	}
 	.nav{
@@ -265,7 +264,7 @@
 		display: inline-flex;
 	    font-size: 25px;
 	    font-family: Arial, sans-serif;
-	    margin: 0 0 0 100px;
+	    margin: 0 0 0 10px;
 	    text-transform: uppercase;
 	}
 	.nav{

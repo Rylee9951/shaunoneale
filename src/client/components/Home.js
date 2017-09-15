@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player' 
 import 'assets/styles/home.css'
 import Book from 'assets/images/bookCover.png'
 import Cruise from 'assets/images/MCCruisegraphic.png'

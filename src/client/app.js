@@ -17,6 +17,7 @@ import Snacks from 'components/Snacks'
 import Dessert from 'components/Dessert'
 import Sides from 'components/Sides'
 import Contact from 'components/Contact'
+import Events from 'components/Events'
 
 ReactDOM.render((
   <Router history={browserHistory}>
@@ -32,6 +33,7 @@ ReactDOM.render((
       <Route path="/snacks" component={Snacks}/>
       <Route path="/store" component={ShaunStore}/>
       <Route path="/contact" component={Contact}/>
+      <Route path="/events" component={Events}/>
     </Route>
   </Router>
 ), document.getElementById('app'))

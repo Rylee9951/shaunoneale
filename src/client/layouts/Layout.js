@@ -29,6 +29,9 @@ export default React.createClass({
             <Link to="/">
               <div className="nav">Home</div>
             </Link>
+            <Link to="/events">
+              <div className="nav">Events</div>
+            </Link>
             <Link to="/blog">
               <div className="nav">Blog</div>
             </Link>
@@ -60,6 +63,9 @@ export default React.createClass({
             <ul className={className} onClick={this.toggleDropdown}>
               <Link to="/">
                 <li className="navLi">Home</li>
+              </Link>
+              <Link to="/events">
+                <li className="navLi">Events</li>
               </Link>
               <Link to="/blog">
                 <li className="navLi">Blog</li>
