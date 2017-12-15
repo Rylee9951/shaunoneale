@@ -5,6 +5,7 @@ import Classy1 from 'assets/images/classy1.png'
 import Classy2 from 'assets/images/classy2.png'  
 import Classy3 from 'assets/images/classy3.png'
 import Classy4 from 'assets/images/classy4.png'
+import Classy5 from 'assets/images/classy5.png'
 
 export default React.createClass({
   render: function (){
@@ -222,6 +223,52 @@ export default React.createClass({
             </div>
           </div>
         </div>
+        <div className="classyRecipeContainer">
+          <div className="classyPhoto">
+            <img className="classyImage" src={Classy5}/>
+          </div>
+          <div className="classySummary">
+            <h3 className="classyTitle">Fall Veggie Carpaccio</h3>
+            <p className="classyRecipeSummary"></p>
+          </div>
+          <h3 className="serveAmount">Serves 4</h3>
+          <div className="classyIngredients5">
+            <div className="classyIngredient">
+              <h3 className="classyIngredientTitle">Fresh Ricotta</h3>
+              <p className="classyEachIngredient">3 cups whole milk<br/>1 cup heavy cream<br/>3 tablespoons fresh lemon juice<br/>Salt</p>
+            </div>
+            <div className="classyIngredient">
+              <h3 className="classyIngredientTitle">Fall Veggie</h3>
+              <p className="classyEachIngredient">2 yellow squash, sliced thin on a mandolin but not paper thin<br/>2 zucchini, sliced thin on a mandolin but not paper thin<br/>Salt to taste</p>
+            </div>
+            <div className="classyIngredient">
+              <h3 className="classyIngredientTitle">Butternut Squash Seed Vinaigrette</h3>
+              <p className="classyEachIngredient">Juice from 1 lemon<br/>1 teaspoon dijon mustard<br/>1 teaspoon honey<br/>1/4 cup Stony Brook Butternut Squash Seed Oil<br/>Salt to taste</p>
+            </div>
+            <div className="classyIngredient">
+              <h3 className="classyIngredientTitle">Garnish</h3>
+              <p className="classyEachIngredient">Baby sweet tomatoes (red or gold) cut in half<br/>Radish micro greens<br/>Red Chile, Aji Dolce, Anaheim or and small sweet chile. Thinly sliced.<br/>Fresh cracked pepper<br/>Toasted pumpkin seeds</p>
+            </div>
+          </div>
+          <div className="classyDirections">
+            <div className="classyDirection">
+              <h3 className="classyDirectionTitle">To make the Fresh Ricotta</h3>
+              <p className="classyDirectionSummary">Pour the milk and cream into a large saucepan and stir to combine. Attach a deep-fryer thermometer onto the side of the pan, place over medium-low heat, and bring the mixture to 190°F, stirring occasionally with a whisk to prevent scorching on the bottom of the pan. Do not let it boil. Stir in the lemon juice and salt, then remove from the heat and leave for 15 to 20 minutes, until the curds (solids) separate from the whey (liquid). Line a colander or mesh strainer with cheesecloth, scoop the big curds out of the pot with a slotted spoon, and transfer them to the strainer (removing the larger curds first helps keep them from splashing as you pour). Pour the remaining curds and whey from the strainer. Continue draining the ricotta for at least 1 hour and up to 3 hours, occasionally pouring out the whey that drips into the bowl. Set aside the ricotta for plating. The ricotta will keep, stored in an airtight container, for up to a week in the refrigerator.</p>
+            </div>
+            <div className="classyDirection">
+              <h3 className="classyDirectionTitle">To make the Veggies</h3>
+              <p className="classyDirectionSummary">Place the squash and zucchini in separate vacuum seal sous vide bags in a single layer, sprinkle with salt and seal. Heat water bath to 170 degrees (or lay on two separate baking sheets lined with parchment, sprinkle with salt and bake at your ovens lowest temperature for 30 to 45 minutes). Place vacuums sealed veggies in the water bath for about 1 hour, veggies should still be crisp. Remove to an ice bath and let cool, can be done a day in advance.</p>
+            </div>
+            <div className="classyDirection">
+              <h3 className="classyDirectionTitle">To make the Vinaigrette</h3>
+              <p className="classyDirectionSummary">Combine the lemon juice, dijon mustard, honey and salt and whisk well with a fork. Continue whisking and slowly drizzle in the oil until lightly emulsified.</p>
+            </div>
+            <div className="classyDirection">
+              <h3 className="classyDirectionTitle">To Serve</h3>
+              <p className="classyDirectionSummary">Make a circle on the plate overlapping the veggies and alternating between squash and zucchini, fill the circle the same way. Place a dollop of the ricotta on top of the veggies and drizzle with the vinaigrette. Garnish with the tomato, micro greens, chile, cracked pepper and toasted pumpkin seeds.</p>
+            </div>
+          </div>
+     </div>
       </div>
     )
   }

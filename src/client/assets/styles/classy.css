@@ -9,21 +9,25 @@
 		width: 1360px;
 		margin: auto;
 		margin-top: 20px;
+		padding-bottom: 50px;
 	}
 	.classyRecipeContainer2{
 		width: 1360px;
 		margin: auto;
 		margin-top: 70px;
+		padding-bottom: 50px;
 	}
 	.classyRecipeContainer3{
 		width: 1360px;
 		margin: auto;
 		margin-top: 70px;
+		padding-bottom: 50px;
 	}
 	.classyRecipeContainer4{
 		width: 1360px;
 		margin: auto;
 		margin-top: 70px;
+		padding-bottom: 50px;
 	}
 	.classyPhoto{
 		width: 800px;
@@ -71,6 +75,10 @@
 	    margin: auto;
 	}
 	.classyIngredients4{
+		width: 1200px;
+	    margin: auto;
+	}
+	.classyIngredients5{
 		width: 1200px;
 	    margin: auto;
 	}
@@ -315,6 +323,12 @@
 	.classyIngredients4{
 		width: 951px;
 		height: 262px;
+	    display: inline-flex;
+	    margin-top: -5px;
+	}
+	.classyIngredients5{
+		width: 951px;
+		height: 260px;
 	    display: inline-flex;
 	    margin-top: -5px;
 	}

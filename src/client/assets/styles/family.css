@@ -201,15 +201,16 @@
 	}
 	.familyRecipeContainer{
 		width: 1360px;
-		height: 740px;
 		margin: auto;
 		margin-top: 20px;
+		padding-bottom: 50px;
 	}
 	.familyRecipeContainer2{
 		width: 1360px;
 		height: 919px;
 		margin: auto;
 		margin-top: 70px;
+		padding-bottom: 50px;
 	}
 	.familyPhoto{
 		width: 400px;
@@ -246,7 +247,6 @@
 
 	.familyIngredients{
 		width: 951px;
-		height: 230px;
 	    display: inline-flex;
 	    margin-top: -5px;
 	}

@@ -38,7 +38,7 @@ export default React.createClass({
 //               <p className="sidesDirectionSummary"></p>
 //             </div>
 //           </div>
-//         </div>
+//      </div>
 //         <div className="sidesRecipeContainer2">
 //           <div className="sidesPhoto">
 //             <img className="sidesImage" src={sides2}/>
